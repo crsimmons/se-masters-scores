@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { prepareData, ranking } from './data.js';
+import { prepareData, genderCheckpoints, ranking } from './data.js';
 const raw = JSON.parse(readFileSync(new URL('../results/team_scores.json', import.meta.url)));
 test('every event retained and sessions use last event snapshot', () => {
   const data = prepareData(raw.events);
@@ -35,6 +35,18 @@ test('gender score filters separate Open and Female and leave Mixed in combined'
   assert(mixedEvent.points_awarded.length > 0);
   assert.equal(mixedEvent.gender_points_awarded.open.length, 0);
   assert.equal(mixedEvent.gender_points_awarded.female.length, 0);
+
+  const openEvents = genderCheckpoints(data.checkpoints, 'open').map(event => event.number);
+  const femaleEvents = genderCheckpoints(data.checkpoints, 'female').map(event => event.number);
+  assert(openEvents.includes(101));
+  assert(openEvents.includes(703));
+  assert(!openEvents.includes(702));
+  assert(!openEvents.includes(709));
+  assert(femaleEvents.includes(101));
+  assert(femaleEvents.includes(704));
+  assert(!femaleEvents.includes(703));
+  assert(!femaleEvents.includes(709));
+  assert.equal(genderCheckpoints(data.checkpoints, 'combined').length, data.checkpoints.length);
 
   for (const category of ['open', 'female']) {
     for (const team of data.teams) {

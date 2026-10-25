@@ -3,7 +3,7 @@ import { LineChart } from 'echarts/charts';
 import { GridComponent, TooltipComponent, DataZoomComponent } from 'echarts/components';
 import { CanvasRenderer } from 'echarts/renderers';
 import raw from 'virtual:scores';
-import { prepareData, ranking } from './data.js';
+import { prepareData, genderCheckpoints, ranking } from './data.js';
 import './style.css';
 
 echarts.use([LineChart, GridComponent, TooltipComponent, DataZoomComponent, CanvasRenderer]);
@@ -14,7 +14,10 @@ const colors = Object.fromEntries(teams.map((t,i) => [t.code, palette[i] || `hsl
 let selected = new Set(teams.slice(0,8).map(t => t.code));
 let mode = 'event', gender = 'combined', index = checkpoints.length - 1;
 const chart = echarts.init($('chart'));
-const points = () => (mode === 'event' ? checkpoints : sessions).map(p => ({ ...p, scores: p.genderScores[gender] }));
+const points = () => {
+  const source = mode === 'event' && gender !== 'combined' ? genderCheckpoints(checkpoints, gender) : mode === 'event' ? checkpoints : sessions;
+  return source.map(p => ({ ...p, scores: p.genderScores[gender] }));
+};
 const label = p => mode === 'event' ? `Event ${p.number}` : `Session ${p.session}`;
 const rankedTeams = () => {
   const scores = points().at(-1).scores;
@@ -81,12 +84,23 @@ function render() {
   }, {notMerge:true});
   table();
 }
+function updateCheckpoint(preferredNumber) {
+  const list = points();
+  $('checkpoint').replaceChildren(...list.map(p => {
+    const option = document.createElement('option');
+    option.textContent = label(p);
+    return option;
+  }));
+  const preferredIndex = list.findIndex(p => p.number === preferredNumber);
+  index = preferredIndex >= 0 ? preferredIndex : list.length - 1;
+  $('checkpoint').selectedIndex = index;
+}
 function setMode(next) {
   mode = next;
   $('by-event').setAttribute('aria-pressed', mode === 'event');
   $('by-session').setAttribute('aria-pressed', mode === 'session');
-  $('checkpoint').replaceChildren(...points().map(p => { const option = document.createElement('option'); option.textContent = label(p); return option; }));
-  index = points().length - 1; $('checkpoint').selectedIndex = index; render();
+  updateCheckpoint();
+  render();
 }
 function applyTheme(dark, save = false) {
   document.documentElement.dataset.theme = dark ? 'dark' : 'light';
@@ -99,11 +113,13 @@ function applyTheme(dark, save = false) {
 $('theme-toggle').onclick = () => { applyTheme(document.documentElement.dataset.theme !== 'dark', true); render(); };
 applyTheme(document.documentElement.dataset.theme === 'dark');
 function setGender(next) {
+  const currentNumber = points()[index]?.number;
   gender = next;
   for (const category of ['combined', 'open', 'female']) {
     $(`by-${category}`).setAttribute('aria-pressed', String(gender === category));
   }
   $('gender-note').hidden = gender === 'combined';
+  updateCheckpoint(currentNumber);
   teamList(); render();
 }
 $('by-combined').onclick = () => setGender('combined');

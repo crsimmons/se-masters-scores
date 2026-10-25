@@ -20,10 +20,17 @@ export function prepareData(events) {
         open: { ...genderTotals.open },
         female: { ...genderTotals.female },
       },
+      genderContributors: {
+        open: (e.gender_points_awarded?.open || []).length > 0,
+        female: (e.gender_points_awarded?.female || []).length > 0,
+      },
     };
   });
   const sessions = checkpoints.filter((e, i) => e.session !== checkpoints[i + 1]?.session);
   return { teams, checkpoints, sessions };
+}
+export function genderCheckpoints(checkpoints, gender) {
+  return gender === 'combined' ? checkpoints : checkpoints.filter(checkpoint => checkpoint.genderContributors[gender]);
 }
 export function ranking(scores, code) {
   const value = scores[code] || 0;
