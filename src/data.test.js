@@ -6,7 +6,7 @@ const raw = JSON.parse(readFileSync(new URL('../results/team_scores.json', impor
 test('every event retained and sessions use last event snapshot', () => {
   const data = prepareData(raw.events);
   assert.equal(data.checkpoints.length, raw.events.length);
-  assert.equal(data.sessions.length, 6);
+  assert.equal(data.sessions.length, 7);
   for(const session of data.sessions) {
     const last = data.checkpoints.filter(p => p.session === session.session).at(-1);
     assert.deepEqual(session.scores, last.scores);
@@ -23,6 +23,29 @@ test('scores carry through all events and match final totals', () => {
       previous = total;
     }
     assert.equal(previous, team.total);
+  }
+});
+test('gender score filters separate Open and Female and leave Mixed in combined', () => {
+  const data = prepareData(raw.events);
+  const combinedEvent = raw.events.find(event => event.event_number === 101);
+  assert(combinedEvent.gender_points_awarded.open.length > 0);
+  assert(combinedEvent.gender_points_awarded.female.length > 0);
+
+  const mixedEvent = raw.events.find(event => event.event_number === 709);
+  assert(mixedEvent.points_awarded.length > 0);
+  assert.equal(mixedEvent.gender_points_awarded.open.length, 0);
+  assert.equal(mixedEvent.gender_points_awarded.female.length, 0);
+
+  for (const category of ['open', 'female']) {
+    for (const team of data.teams) {
+      let previous = 0;
+      for (const checkpoint of data.checkpoints) {
+        const score = checkpoint.genderScores[category][team.code] || 0;
+        assert(score >= previous);
+        assert(score <= (checkpoint.scores[team.code] || 0));
+        previous = score;
+      }
+    }
   }
 });
 test('competition rank handles ties and zero points', () => {

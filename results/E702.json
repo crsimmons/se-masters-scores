@@ -1,0 +1,1666 @@
+{
+  "status": "complete",
+  "meet": {
+    "name": "Swim England Masters 2026",
+    "city": "Sheffield",
+    "date": "2026-10-25",
+    "course": "SCM"
+  },
+  "event": {
+    "id": 702,
+    "number": 702,
+    "name": "Female 4x50m Freestyle Team",
+    "distance_m": 50,
+    "stroke": "FREE"
+  },
+  "age_groups": [
+    {
+      "name": "072+ Yrs Age Group",
+      "age_min": 72,
+      "age_max": 99,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Preston",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Elissa Gornall",
+              "age": 26,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Ella Williams",
+              "age": 22,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Leah Williams",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Emma Jones",
+              "age": 39,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "PRNN",
+            "name": "Preston Swimming Club"
+          },
+          "time": "00:01:51.26"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "British Army",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Olivia Pollard",
+              "age": 28,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Hannah Roe",
+              "age": 27,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Pippa Smyth",
+              "age": 19,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Lana Mo",
+              "age": 27,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "BRAS",
+            "name": "British Army"
+          },
+          "time": "00:01:52.06"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "team_name": "Birmingham M",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Larissa Dean",
+              "age": 24,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Anna McCall",
+              "age": 45,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Laura Cranshaw",
+              "age": 39,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Katie Walker-Stabeler",
+              "age": 37,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "BIRM",
+            "name": "Birmingham Masters"
+          },
+          "time": "00:01:52.75"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "team_name": "Sandwell",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Phoebe Weaver",
+              "age": 33,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Nicola Raine",
+              "age": 44,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Abigail Jackson",
+              "age": 23,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Abi Salcombe",
+              "age": 20,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "SAQM",
+            "name": "Sandwell Aquatics Club"
+          },
+          "time": "00:01:54.86"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "team_name": "Co Cambridge",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Hannah Tate",
+              "age": 22,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Almudena Visser Velez",
+              "age": 24,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Fay Westwood",
+              "age": 34,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Ellisha Cookson",
+              "age": 22,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "CAMT",
+            "name": "City of Cambridge SC"
+          },
+          "time": "00:01:55.07"
+        },
+        {
+          "order": 6,
+          "place": 6,
+          "team_name": "Basingstoke",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Elizabeth Dudman",
+              "age": 18,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Xanthe Symington",
+              "age": 18,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Rebecca Johnston",
+              "age": 18,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Naomi Vides",
+              "age": 32,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "BBFS",
+            "name": "Basingstoke Bluefins SC"
+          },
+          "time": "00:01:56.15"
+        },
+        {
+          "order": 7,
+          "place": 7,
+          "team_name": "Crawley",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Latifah Von Numers",
+              "age": 26,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Lynsey Wright",
+              "age": 27,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Reza Westerduin",
+              "age": 19,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Kelsey Rea",
+              "age": 18,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "CRWS",
+            "name": "Crawley SC"
+          },
+          "time": "00:01:58.11"
+        },
+        {
+          "order": 8,
+          "place": 8,
+          "team_name": "NottmLeander",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Darcy Deakin",
+              "age": 27,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Francesca Woodman",
+              "age": 26,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Katie Hall",
+              "age": 29,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Darcey Adams",
+              "age": 19,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "LEAA",
+            "name": "Nottingham Leander SC"
+          },
+          "time": "00:02:00.35"
+        },
+        {
+          "order": 9,
+          "place": 9,
+          "team_name": "Team Waveney",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Jersey Holmes",
+              "age": 19,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Isobelle Whittaker",
+              "age": 18,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Abigail Berrey",
+              "age": 24,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Maia Thompson",
+              "age": 18,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "TWST",
+            "name": "Team Waveney Swimming Club"
+          },
+          "time": "00:02:02.03"
+        },
+        {
+          "order": 10,
+          "place": 10,
+          "team_name": "Edinburgh Un",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Beth Taylor",
+              "age": 20,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Zoe Crawford",
+              "age": 19,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Scarlett Darlington",
+              "age": 20,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Caitlin Frame",
+              "age": 19,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "EEUX",
+            "name": "Edinburgh University"
+          },
+          "time": "00:02:02.27"
+        },
+        {
+          "order": 11,
+          "place": 11,
+          "team_name": "Co Sheffield",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "A Hambleton-Edwards",
+              "age": 38,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Lucy Shaw",
+              "age": 23,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Rachel Taylor",
+              "age": 27,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Poppy Elliott",
+              "age": 22,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "COSE",
+            "name": "City of Sheffield Swim Squad Ltd"
+          },
+          "time": "00:02:03.12"
+        },
+        {
+          "order": 12,
+          "place": 12,
+          "team_name": "West Norfolk",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Abigail Nicholson",
+              "age": 20,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Cheryl Rose",
+              "age": 60,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Libby Collins",
+              "age": 20,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "K Sutika-Totlebena",
+              "age": 18,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "KLWT",
+            "name": "West Norfolk Swimming Club"
+          },
+          "time": "00:02:22.59"
+        },
+        {
+          "order": 13,
+          "place": -1,
+          "team_name": "Sevenoaks",
+          "swimmers": [],
+          "club": {
+            "code": "SEVS",
+            "name": "Sevenoaks SC"
+          },
+          "time": "NT"
+        }
+      ]
+    },
+    {
+      "name": "100+ Yrs Age Group",
+      "age_min": 100,
+      "age_max": 119,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Trafford Met",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Victoria Cunningham",
+              "age": 32,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Sydnie Bairstow",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Isobella Burton",
+              "age": 26,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Louisa Zolkiewski",
+              "age": 33,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "TMBN",
+            "name": "Trafford Metro Bor SC"
+          },
+          "time": "00:01:46.17"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "Otter",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Jessica Shaw",
+              "age": 27,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Sarah Turner",
+              "age": 31,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Sophie Elphick",
+              "age": 32,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Ibby Szenes",
+              "age": 26,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:01:50.50"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "team_name": "Birmingham M",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Rebecca Man",
+              "age": 32,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Alannah Fillingham",
+              "age": 31,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Megan Holder",
+              "age": 26,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Megan Berridge",
+              "age": 30,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "BIRM",
+            "name": "Birmingham Masters"
+          },
+          "time": "00:01:53.24"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "team_name": "Co Sheffield",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Lauren Hodgson",
+              "age": 27,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Mary Swallow",
+              "age": 30,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Avril Bowler",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Francesca Crocker",
+              "age": 26,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "COSE",
+            "name": "City of Sheffield Swim Squad Ltd"
+          },
+          "time": "00:01:55.43"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "team_name": "Howe Bridge",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Jessica Sloan",
+              "age": 28,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Kelly Sivill",
+              "age": 31,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Eleanor Hutchinson",
+              "age": 28,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Jessica Whittle",
+              "age": 32,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "HBAN",
+            "name": "Howe Bridge Aces SC"
+          },
+          "time": "00:01:56.71"
+        },
+        {
+          "order": 6,
+          "place": 6,
+          "team_name": "Derby Excel",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Georgie Pryor",
+              "age": 28,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Elizabeth Bishop",
+              "age": 32,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Rebecca Mills",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Charlotte Bentley",
+              "age": 28,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "DEXA",
+            "name": "Derby Excel Swimming Club"
+          },
+          "time": "00:01:56.88"
+        },
+        {
+          "order": 7,
+          "place": 7,
+          "team_name": "Windsor",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Eilidh Green",
+              "age": 21,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Deborah Aresu",
+              "age": 29,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Lucy Saunders",
+              "age": 28,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Hayley Moore",
+              "age": 39,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "WINS",
+            "name": "Windsor SC"
+          },
+          "time": "00:01:57.30"
+        },
+        {
+          "order": 8,
+          "place": 8,
+          "team_name": "Stowmarket",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Francesca Wallace",
+              "age": 29,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Sophie Barrett",
+              "age": 24,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Chloe Long",
+              "age": 27,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Lija Radziunaite",
+              "age": 24,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "STOT",
+            "name": "Stowmarket SC"
+          },
+          "time": "00:02:00.82"
+        },
+        {
+          "order": 9,
+          "place": 9,
+          "team_name": "Durham City",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Anna Loughlin",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Megan Olshefski",
+              "age": 33,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Hollie Codling",
+              "age": 31,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Gabrielle Burdess",
+              "age": 28,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "DURE",
+            "name": "Durham City ASC"
+          },
+          "time": "00:02:10.38"
+        }
+      ]
+    },
+    {
+      "name": "120+ Yrs Age Group",
+      "age_min": 120,
+      "age_max": 159,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Co Cambridge",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Charlotte Begg",
+              "age": 32,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Kathryn Gill",
+              "age": 39,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Samantha Auker",
+              "age": 31,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Robyn Le Friec",
+              "age": 36,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "CAMT",
+            "name": "City of Cambridge SC"
+          },
+          "time": "00:01:54.36"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "Kenilworth M",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Amie Hammonds",
+              "age": 29,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Jill Groves",
+              "age": 52,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Elinor Bird",
+              "age": 27,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Sophie Hodgson",
+              "age": 27,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "KEMM",
+            "name": "Kenilworth Masters SC"
+          },
+          "time": "00:01:55.43"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "team_name": "East Leeds",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Anna Cheesbrough",
+              "age": 33,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Sally Evers",
+              "age": 51,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Ella Windle",
+              "age": 28,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Ellen Winters",
+              "age": 26,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "ELEE",
+            "name": "East Leeds SC"
+          },
+          "time": "00:01:55.90"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "team_name": "Cardiff Mast",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Bronwen Harry",
+              "age": 32,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Karen Fitzgerald",
+              "age": 55,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Grace Robinson",
+              "age": 32,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Danielle Stirrat",
+              "age": 33,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "CDMY",
+            "name": "Cardiff Masters Swimming Club"
+          },
+          "time": "00:01:56.25"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "team_name": "Trafford Met",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Helen Sadler",
+              "age": 56,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Suzy Hill",
+              "age": 30,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Kate Williams",
+              "age": 41,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Molly James",
+              "age": 30,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "TMBN",
+            "name": "Trafford Metro Bor SC"
+          },
+          "time": "00:01:57.09"
+        },
+        {
+          "order": 6,
+          "place": 6,
+          "team_name": "Otter",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Laura Chapman",
+              "age": 33,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Michanne Steenbergen",
+              "age": 34,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Lei Ping",
+              "age": 34,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Suzanne Lewis",
+              "age": 29,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:01:58.51"
+        },
+        {
+          "order": 7,
+          "place": 7,
+          "team_name": "Ripley",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Megan White",
+              "age": 30,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Amy Roberts",
+              "age": 35,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Zoe Radford",
+              "age": 22,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Lucy Moorcroft",
+              "age": 42,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "RIPA",
+            "name": "Ripley SC (rascals)"
+          },
+          "time": "00:02:15.66"
+        },
+        {
+          "order": 8,
+          "place": -1,
+          "team_name": "South Beds",
+          "swimmers": [],
+          "club": {
+            "code": "SBMT",
+            "name": "South Beds Masters Swimming Club"
+          },
+          "time": "NT"
+        },
+        {
+          "order": 9,
+          "place": -1,
+          "team_name": "Bristol Hen",
+          "swimmers": [],
+          "club": {
+            "code": "BRHW",
+            "name": "Bristol Henleaze SC"
+          },
+          "time": "NT"
+        }
+      ]
+    },
+    {
+      "name": "160+ Yrs Age Group",
+      "age_min": 160,
+      "age_max": 199,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Swindon",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Jessica Westlake",
+              "age": 27,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Belinda Shields",
+              "age": 38,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Sarah Lock",
+              "age": 55,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Rebecca Smith",
+              "age": 47,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "SWAW",
+            "name": "Swindon ASC"
+          },
+          "time": "00:01:57.50"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "West Norfolk",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Lucy Rodwell",
+              "age": 40,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Emma Simmonds",
+              "age": 53,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Gretta Stark",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Helen Lali",
+              "age": 48,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "KLWT",
+            "name": "West Norfolk Swimming Club"
+          },
+          "time": "00:02:00.50"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "team_name": "Northampton",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Sarah Hollis",
+              "age": 38,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Nicola Smith",
+              "age": 51,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Julie Moinet",
+              "age": 62,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Kate Webb",
+              "age": 36,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "NHNA",
+            "name": "Northampton Swimming Club"
+          },
+          "time": "00:02:07.05"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "team_name": "Newark",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Natasha Richards",
+              "age": 40,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Caroline Nisbet",
+              "age": 48,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Kathryn Tregellas",
+              "age": 55,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Katie Maloney",
+              "age": 29,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "NEWA",
+            "name": "Newark SC"
+          },
+          "time": "00:02:07.41"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "team_name": "Bo Kirklees",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Beatrix Langara",
+              "age": 43,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Sarah Coatsworth",
+              "age": 53,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Caroline Marsh",
+              "age": 47,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Caroline Winkley",
+              "age": 51,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "BOKE",
+            "name": "Borough of Kirklees SC"
+          },
+          "time": "00:02:19.58"
+        }
+      ]
+    },
+    {
+      "name": "200+ Yrs Age Group",
+      "age_min": 200,
+      "age_max": 239,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "G B Police",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Kelly Clarke",
+              "age": 54,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Delyth Cunnah",
+              "age": 58,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Claire Thorn",
+              "age": 55,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Aimee Louise Ramm",
+              "age": 44,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "GBPE",
+            "name": "Great Britain Police"
+          },
+          "time": "00:01:58.73"
+        },
+        {
+          "order": 2,
+          "place": 1,
+          "team_name": "Team Anglia",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Elizabeth Woolner",
+              "age": 59,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Lucy Ryan",
+              "age": 53,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Catherine Markwell",
+              "age": 45,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Helen Davis",
+              "age": 56,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "TANT",
+            "name": "Team Anglia Masters Swimming Clu"
+          },
+          "time": "00:01:58.73"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "team_name": "Crawley",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Tamami Tsujimura",
+              "age": 46,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Linda Sprigge",
+              "age": 66,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Sharon Burchell",
+              "age": 50,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Nicola Wright",
+              "age": 50,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "CRWS",
+            "name": "Crawley SC"
+          },
+          "time": "00:02:10.01"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "team_name": "Barnet Copt",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Helen Barrison",
+              "age": 51,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Heather McKay",
+              "age": 39,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Lisa Dawson",
+              "age": 48,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Judith Alden",
+              "age": 80,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "BANL",
+            "name": "Barnet Copthall SC"
+          },
+          "time": "00:02:14.98"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "team_name": "Derby Excel",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Valerie Thorp",
+              "age": 73,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Fran Allmark-Palmer",
+              "age": 38,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Helen Reader",
+              "age": 60,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Claire Spink",
+              "age": 58,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "DEXA",
+            "name": "Derby Excel Swimming Club"
+          },
+          "time": "00:02:34.33"
+        },
+        {
+          "order": 6,
+          "place": -1,
+          "team_name": "South Beds",
+          "swimmers": [],
+          "club": {
+            "code": "SBMT",
+            "name": "South Beds Masters Swimming Club"
+          },
+          "time": "NT"
+        }
+      ]
+    },
+    {
+      "name": "240+ Yrs Age Group",
+      "age_min": 240,
+      "age_max": 279,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Kenilworth M",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Hayley Bettinson",
+              "age": 63,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Joanne Seymour",
+              "age": 61,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Suzanne Linton",
+              "age": 64,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Melanie McWhirter",
+              "age": 53,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "KEMM",
+            "name": "Kenilworth Masters SC"
+          },
+          "time": "00:02:01.52"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "Bracknell",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Laura Cooke",
+              "age": 61,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Claire Moore",
+              "age": 71,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Alexandra Boddington",
+              "age": 54,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Karen Jenden",
+              "age": 56,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "BRKS",
+            "name": "Bracknell & Wokingham SC"
+          },
+          "time": "00:02:11.59"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "team_name": "Wycombe Dist",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Jacqueline Wells",
+              "age": 66,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Katharine King",
+              "age": 58,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Samantha Usher",
+              "age": 54,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Philippa Williams",
+              "age": 64,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "WYCS",
+            "name": "Wycombe District SC"
+          },
+          "time": "00:02:12.15"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "team_name": "B C & P Mast",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Jennifer Powell",
+              "age": 58,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Kathleen Tunnicliffe",
+              "age": 74,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Lynne Dawson",
+              "age": 59,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Alyson Fordham",
+              "age": 70,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "BCPM",
+            "name": "Black Country n Potteries Master"
+          },
+          "time": "00:02:15.84"
+        }
+      ]
+    },
+    {
+      "name": "280+ Yrs Age Group",
+      "age_min": 280,
+      "age_max": 319,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Exe Masters",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Heidi Bell-West",
+              "age": 56,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Vivien Bell-West",
+              "age": 81,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Ros Knight",
+              "age": 77,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Susan Haigh",
+              "age": 74,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "EMAW",
+            "name": "Exe Masters Swimming Club"
+          },
+          "time": "00:02:55.44"
+        }
+      ]
+    }
+  ]
+}

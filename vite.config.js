@@ -7,7 +7,7 @@ export default defineConfig({
     load(id) {
       if (id !== '\0virtual:scores') return;
       const raw = JSON.parse(readFileSync('results/team_scores.json', 'utf8'));
-      const events = raw.events.map(({event_number, event_name, standings}) => ({event_number, event_name, standings}));
+      const events = raw.events.map(({event_number, event_name, standings, gender_points_awarded}) => ({event_number, event_name, standings, gender_points_awarded}));
       return 'export default ' + JSON.stringify({events});
     },
     handleHotUpdate({file, server}) {

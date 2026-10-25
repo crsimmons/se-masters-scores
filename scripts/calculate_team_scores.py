@@ -29,6 +29,23 @@ def int_or_none(value: Any) -> int | None:
         return None
 
 
+def gender_category(age_group: dict, event_name: str | None) -> str | None:
+    gender = age_group.get("gender")
+    if gender == "M":
+        return "open"
+    if gender == "F":
+        return "female"
+    if gender == "X":
+        return None
+
+    name = (event_name or "").casefold()
+    if name.startswith("open "):
+        return "open"
+    if name.startswith("female "):
+        return "female"
+    return None
+
+
 def load_events(results_dir: Path) -> list[dict]:
     events = []
     for path in results_dir.glob("E*.json"):
@@ -75,7 +92,9 @@ def main() -> int:
 
     for event in events:
         event_points: dict[str, int] = defaultdict(int)
+        gender_event_points = {"open": defaultdict(int), "female": defaultdict(int)}
         for age_group in event["age_groups"]:
+            category = gender_category(age_group, event["name"])
             for result in age_group.get("results", []):
                 place = int_or_none(result.get("place"))
                 points = POINTS_BY_PLACE.get(place)
@@ -90,6 +109,8 @@ def main() -> int:
                 key = str(key)
                 clubs[key] = {"code": code, "name": name}
                 event_points[key] += points
+                if category:
+                    gender_event_points[category][key] += points
                 totals[key] += points
 
         standings = sorted(
@@ -127,6 +148,20 @@ def main() -> int:
                 }
                 for key in earned
             ],
+            "gender_points_awarded": {
+                category: [
+                    {
+                        "club_code": clubs[key].get("code"),
+                        "club_name": clubs[key].get("name"),
+                        "points": points,
+                    }
+                    for key, points in sorted(
+                        category_points.items(),
+                        key=lambda item: (-item[1], (clubs[item[0]].get("name") or "").casefold(), item[0]),
+                    )
+                ]
+                for category, category_points in gender_event_points.items()
+            },
             "standings": rows,
         })
 

@@ -12,16 +12,21 @@ const $ = id => document.getElementById(id);
 const palette = ['#1263b1','#d24b36','#128278','#8b4bab','#a16b08','#426148','#c04080','#5265a1'];
 const colors = Object.fromEntries(teams.map((t,i) => [t.code, palette[i] || `hsl(${(i * 137.5) % 360} 55% 38%)`]));
 let selected = new Set(teams.slice(0,8).map(t => t.code));
-let mode = 'event', index = checkpoints.length - 1;
+let mode = 'event', gender = 'combined', index = checkpoints.length - 1;
 const chart = echarts.init($('chart'));
-const points = () => mode === 'event' ? checkpoints : sessions;
+const points = () => (mode === 'event' ? checkpoints : sessions).map(p => ({ ...p, scores: p.genderScores[gender] }));
 const label = p => mode === 'event' ? `Event ${p.number}` : `Session ${p.session}`;
+const rankedTeams = () => {
+  const scores = points().at(-1).scores;
+  return [...teams].sort((a, b) => (scores[b.code] || 0) - (scores[a.code] || 0) || a.name.localeCompare(b.name));
+};
 $('meet-count').innerHTML = `<div class="meet-totals"><div class="meet-stat"><strong>${checkpoints.length}</strong><span>events</span></div><div class="meet-stat"><strong>${sessions.length}</strong><span>sessions</span></div></div><p id="results-through"></p>`;
 $('results-through').textContent = `Results through event ${checkpoints.at(-1).number}`;
 function teamList() {
   const query = $('search').value.toLowerCase().trim();
   $('teams').replaceChildren();
-  const filtered = teams.filter(t => (t.name + ' ' + t.code).toLowerCase().includes(query));
+  const scores = points().at(-1).scores;
+  const filtered = rankedTeams().filter(t => (t.name + ' ' + t.code).toLowerCase().includes(query));
   for (const t of filtered) {
     const row = document.createElement('label');
     row.className = 'team-row';
@@ -30,7 +35,7 @@ function teamList() {
     input.addEventListener('change', () => { input.checked ? selected.add(t.code) : selected.delete(t.code); render(); });
     const swatch = document.createElement('span'); swatch.className = 'swatch'; swatch.style.background = colors[t.code];
     const name = document.createElement('span'); name.className = 'team-name'; name.textContent = t.name;
-    const total = document.createElement('span'); total.className = 'team-total'; total.textContent = t.total;
+    const total = document.createElement('span'); total.className = 'team-total'; total.textContent = scores[t.code] || 0;
     row.append(input, swatch, name, total); $('teams').append(row);
   }
   $('no-results').hidden = filtered.length > 0;
@@ -93,10 +98,21 @@ function applyTheme(dark, save = false) {
 }
 $('theme-toggle').onclick = () => { applyTheme(document.documentElement.dataset.theme !== 'dark', true); render(); };
 applyTheme(document.documentElement.dataset.theme === 'dark');
+function setGender(next) {
+  gender = next;
+  for (const category of ['combined', 'open', 'female']) {
+    $(`by-${category}`).setAttribute('aria-pressed', String(gender === category));
+  }
+  $('gender-note').hidden = gender === 'combined';
+  teamList(); render();
+}
+$('by-combined').onclick = () => setGender('combined');
+$('by-open').onclick = () => setGender('open');
+$('by-female').onclick = () => setGender('female');
 $('by-event').onclick = () => setMode('event');
 $('by-session').onclick = () => setMode('session');
 $('checkpoint').onchange = () => { index = $('checkpoint').selectedIndex; table(); };
 $('search').oninput = teamList;
-for (const id of ['top','all','clear']) $(id).onclick = () => { selected = new Set((id === 'top' ? teams.slice(0,8) : id === 'all' ? teams : []).map(t => t.code)); teamList(); render(); };
+for (const id of ['top','all','clear']) $(id).onclick = () => { selected = new Set((id === 'top' ? rankedTeams().slice(0,8) : id === 'all' ? teams : []).map(t => t.code)); teamList(); render(); };
 new ResizeObserver(() => chart.resize()).observe($('chart'));
 teamList(); setMode('event');

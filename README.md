@@ -17,6 +17,7 @@ npm run dev
 
 - Event mode shows cumulative scores after each completed event.
 - Session mode takes the last event snapshot in each event-number hundreds group (101 = session 1, 201–207 = session 2, etc.).
+- Combined scores are shown by default; Open and Female filters show category scores. Mixed relay points remain in Combined.
 - The top eight clubs are selected initially; every scoring club can be searched and selected.
 - Hover/tap the chart for comparisons, or use the checkpoint selector and table for exact scores. Table places are across all clubs, not just selected clubs. Gained points are relative to the previous event/session.
 - Scoring uses the existing calculator: 7, 5, 4, 3, 2, 1 for places 1–6 in each age group. These are calculated, not official standings.
