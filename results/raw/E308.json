@@ -1,0 +1,3989 @@
+{
+  "+p_xml": "version=\"1.0\" encoding=\"iso-8859-1\"",
+  "LENEX": {
+    "+@version": "3.0",
+    "CONSTRUCTOR": {
+      "+@name": "SPORTSYS LLP Meet Organisation V6.0",
+      "+@registration": "Swim England",
+      "+@version": "6.0.190",
+      "CONTACT": {
+        "+@name": "SPORTSYSTEMS",
+        "+@street": "8 Sheaf Place",
+        "+@city": "Worksop",
+        "+@zip": "S81 7LE",
+        "+@country": "GB",
+        "+@phone": "+44 1909 481310",
+        "+@email": "sales@sportsys.co.uk",
+        "+@internet": "https://www.sportsys.co.uk"
+      }
+    },
+    "MEETS": {
+      "MEET": {
+        "+@name": "Swim England Masters 2026",
+        "+@name.en": "Swim England Masters 2026",
+        "+@city": "Sheffield",
+        "+@city.en": "Sheffield",
+        "+@nation": "",
+        "AGEDATE": {
+          "+@type": "DATE",
+          "+@value": "2026-12-31"
+        },
+        "SESSIONS": {
+          "SESSION": {
+            "+@number": "3",
+            "+@name": "Session 3",
+            "+@course": "SCM",
+            "+@date": "2026-10-23",
+            "+@daytime": "16:30",
+            "EVENTS": {
+              "EVENT": {
+                "+@eventid": "308",
+                "+@number": "308",
+                "+@preveventid": "-1",
+                "+@gender": "M",
+                "+@round": "TIM",
+                "+@order": "1",
+                "+@status": "OFFICIAL",
+                "SWIMSTYLE": {
+                  "+@distance": "400",
+                  "+@relaycount": "1",
+                  "+@stroke": "MEDLEY",
+                  "+@name": "Open 400m Individual Medley"
+                },
+                "HEATS": {
+                  "HEAT": [
+                    {
+                      "+@heatid": "3081",
+                      "+@number": "1"
+                    },
+                    {
+                      "+@heatid": "3082",
+                      "+@number": "2"
+                    },
+                    {
+                      "+@heatid": "3083",
+                      "+@number": "3"
+                    },
+                    {
+                      "+@heatid": "3084",
+                      "+@number": "4"
+                    },
+                    {
+                      "+@heatid": "3085",
+                      "+@number": "5"
+                    }
+                  ]
+                },
+                "AGEGROUPS": {
+                  "AGEGROUP": [
+                    {
+                      "+@agegroupid": "1",
+                      "+@agemax": "24",
+                      "+@agemin": "18",
+                      "+@name": "18/24 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "8076"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "3658"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "2",
+                      "+@agemax": "29",
+                      "+@agemin": "25",
+                      "+@name": "25/29 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "2264"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "3254"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "3",
+                            "+@resultid": "6185"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "3",
+                      "+@agemax": "34",
+                      "+@agemin": "30",
+                      "+@name": "30/34 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "2294"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "4325"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "3",
+                            "+@resultid": "4437"
+                          },
+                          {
+                            "+@order": "4",
+                            "+@place": "4",
+                            "+@resultid": "2420"
+                          },
+                          {
+                            "+@order": "5",
+                            "+@place": "5",
+                            "+@resultid": "5774"
+                          },
+                          {
+                            "+@order": "6",
+                            "+@place": "6",
+                            "+@resultid": "6754"
+                          },
+                          {
+                            "+@order": "7",
+                            "+@place": "-1",
+                            "+@resultid": "3337"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "4",
+                      "+@agemax": "39",
+                      "+@agemin": "35",
+                      "+@name": "35/39 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "4760"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "2449"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "3",
+                            "+@resultid": "6446"
+                          },
+                          {
+                            "+@order": "4",
+                            "+@place": "4",
+                            "+@resultid": "4697"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "5",
+                      "+@agemax": "44",
+                      "+@agemin": "40",
+                      "+@name": "40/44 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "6302"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "6777"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "-1",
+                            "+@resultid": "5659"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "6",
+                      "+@agemax": "49",
+                      "+@agemin": "45",
+                      "+@name": "45/49 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "2220"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "5090"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "3",
+                            "+@resultid": "5827"
+                          },
+                          {
+                            "+@order": "4",
+                            "+@place": "4",
+                            "+@resultid": "6456"
+                          },
+                          {
+                            "+@order": "5",
+                            "+@place": "5",
+                            "+@resultid": "5650"
+                          },
+                          {
+                            "+@order": "6",
+                            "+@place": "6",
+                            "+@resultid": "5736"
+                          },
+                          {
+                            "+@order": "7",
+                            "+@place": "7",
+                            "+@resultid": "5975"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "7",
+                      "+@agemax": "54",
+                      "+@agemin": "50",
+                      "+@name": "50/54 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "5069"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "8085"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "3",
+                            "+@resultid": "2883"
+                          },
+                          {
+                            "+@order": "4",
+                            "+@place": "4",
+                            "+@resultid": "8097"
+                          },
+                          {
+                            "+@order": "5",
+                            "+@place": "5",
+                            "+@resultid": "5720"
+                          },
+                          {
+                            "+@order": "6",
+                            "+@place": "-1",
+                            "+@resultid": "6698"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "8",
+                      "+@agemax": "59",
+                      "+@agemin": "55",
+                      "+@name": "55/59 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "2734"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "6253"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "3",
+                            "+@resultid": "8084"
+                          },
+                          {
+                            "+@order": "4",
+                            "+@place": "4",
+                            "+@resultid": "6761"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "9",
+                      "+@agemax": "64",
+                      "+@agemin": "60",
+                      "+@name": "60/64 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "3109"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "4538"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "3",
+                            "+@resultid": "4154"
+                          },
+                          {
+                            "+@order": "4",
+                            "+@place": "4",
+                            "+@resultid": "7059"
+                          },
+                          {
+                            "+@order": "5",
+                            "+@place": "5",
+                            "+@resultid": "3519"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "10",
+                      "+@agemax": "69",
+                      "+@agemin": "65",
+                      "+@name": "65/69 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "4021"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "2369"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "3",
+                            "+@resultid": "3774"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "11",
+                      "+@agemax": "74",
+                      "+@agemin": "70",
+                      "+@name": "70/74 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "2914"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "8087"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "12",
+                      "+@agemax": "84",
+                      "+@agemin": "80",
+                      "+@name": "80/84 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": {
+                          "+@order": "1",
+                          "+@place": "-1",
+                          "+@resultid": "2301"
+                        }
+                      }
+                    },
+                    {
+                      "+@agegroupid": "13",
+                      "+@agemax": "89",
+                      "+@agemin": "85",
+                      "+@name": "85/89 Yrs Age Group",
+                      "+@pointstype": "M",
+                      "RANKINGS": {
+                        "RANKING": {
+                          "+@order": "1",
+                          "+@place": "1",
+                          "+@resultid": "5809"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "CLUBS": {
+          "CLUB": [
+            {
+              "+@code": "BANL",
+              "+@name": "Barnet Copthall SC",
+              "+@name.en": "Barnet Copthall SC",
+              "+@region": "MDXL",
+              "+@type": "CLUB",
+              "+@shortname": "Barnet Copt",
+              "+@shortname.en": "Barnet Copt",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "917",
+                    "+@lastname": "Brundage",
+                    "+@firstname": "Patrick",
+                    "+@nameprefix": "Patrick",
+                    "+@gender": "M",
+                    "+@birthdate": "1967-01-01",
+                    "+@age": "59",
+                    "+@license": "1746262",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3084",
+                        "+@lane": "5",
+                        "+@entrytime": "00:05:01.92",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "2734",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:04:58.63",
+                        "+@reactiontime": "",
+                        "+@points": "486",
+                        "+@pointsmasters": "734",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:32.85",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:09.13",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:01:47.77",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:25.96",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:09.04",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:03:52.60",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:04:26.73",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:04:58.63",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "1993",
+                    "+@lastname": "Carse",
+                    "+@firstname": "Michael",
+                    "+@nameprefix": "Michael",
+                    "+@gender": "M",
+                    "+@birthdate": "1979-01-01",
+                    "+@age": "47",
+                    "+@license": "769281",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3081",
+                        "+@lane": "4",
+                        "+@entrytime": "00:06:43.01",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "5975",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:06:27.03",
+                        "+@reactiontime": "",
+                        "+@points": "223",
+                        "+@pointsmasters": "274",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:41.14",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:29.47",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:21.28",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:03:13.41",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:04:05.08",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:04:58.26",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:05:43.08",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:06:27.03",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "916",
+                    "+@lastname": "Parkin",
+                    "+@firstname": "Keith",
+                    "+@nameprefix": "Keith",
+                    "+@gender": "M",
+                    "+@birthdate": "1954-01-01",
+                    "+@age": "72",
+                    "+@license": "17603",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3081",
+                        "+@lane": "7",
+                        "+@entrytime": "00:07:16.94",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "8087",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:07:34.95",
+                        "+@reactiontime": "",
+                        "+@points": "137",
+                        "+@pointsmasters": "391",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:47.37",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:45.00",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:44.45",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:03:44.07",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:04:47.10",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:05:49.88",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:06:42.14",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:07:34.95",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "BAST",
+              "+@name": "Basildon and Phoenix SC",
+              "+@name.en": "Basildon and Phoenix SC",
+              "+@region": "ESXQ",
+              "+@type": "CLUB",
+              "+@shortname": "Basildon Ph",
+              "+@shortname.en": "Basildon Ph",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1997",
+                  "+@lastname": "Pethers",
+                  "+@firstname": "Dave",
+                  "+@nameprefix": "Dave",
+                  "+@gender": "M",
+                  "+@birthdate": "1970-01-01",
+                  "+@age": "56",
+                  "+@license": "1144822",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3082",
+                      "+@lane": "2",
+                      "+@entrytime": "00:06:12.00",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "8084",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:06:13.32",
+                      "+@reactiontime": "",
+                      "+@points": "248",
+                      "+@pointsmasters": "346",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:36.40",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:20.55",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:12.78",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:03:03.58",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:57.70",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:04:50.77",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:05:32.98",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:06:13.32",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "BCCS",
+              "+@name": "Bicester Blue Fins SC",
+              "+@name.en": "Bicester Blue Fins SC",
+              "+@region": "ONBS",
+              "+@type": "CLUB",
+              "+@shortname": "Bicester",
+              "+@shortname.en": "Bicester",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "959",
+                  "+@lastname": "Jardine",
+                  "+@firstname": "David",
+                  "+@nameprefix": "David",
+                  "+@gender": "M",
+                  "+@birthdate": "1976-01-01",
+                  "+@age": "50",
+                  "+@license": "1234518",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3084",
+                      "+@lane": "1",
+                      "+@entrytime": "00:05:24.65",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "8085",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:05:21.72",
+                      "+@reactiontime": "",
+                      "+@points": "388",
+                      "+@pointsmasters": "490",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:31.62",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:09.46",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:50.56",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:31.27",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:17.71",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:04:04.72",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:43.42",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:05:21.72",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "BILE",
+              "+@name": "Billingham Forum SC",
+              "+@name.en": "Billingham Forum SC",
+              "+@region": "NDRE",
+              "+@type": "CLUB",
+              "+@shortname": "Billingham",
+              "+@shortname.en": "Billingham",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "964",
+                  "+@lastname": "Horner",
+                  "+@firstname": "Steven",
+                  "+@nameprefix": "Steven",
+                  "+@gender": "M",
+                  "+@birthdate": "1972-01-01",
+                  "+@age": "54",
+                  "+@license": "3971",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3083",
+                      "+@lane": "4",
+                      "+@entrytime": "00:05:41.30",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "2883",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:05:42.79",
+                      "+@reactiontime": "",
+                      "+@points": "321",
+                      "+@pointsmasters": "428",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:33.99",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:14.65",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:00.48",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:46.45",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:34.64",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:04:23.40",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:05:04.18",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:05:42.79",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "BIRM",
+              "+@name": "Birmingham Masters",
+              "+@name.en": "Birmingham Masters",
+              "+@region": "WWKM",
+              "+@type": "CLUB",
+              "+@shortname": "Birmingham M",
+              "+@shortname.en": "Birmingham M",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "974",
+                  "+@lastname": "Clark",
+                  "+@firstname": "Trevor",
+                  "+@nameprefix": "Trevor",
+                  "+@gender": "M",
+                  "+@birthdate": "1954-01-01",
+                  "+@age": "72",
+                  "+@license": "459",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3081",
+                      "+@lane": "3",
+                      "+@entrytime": "00:06:51.64",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "2914",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:06:57.36",
+                      "+@reactiontime": "",
+                      "+@points": "178",
+                      "+@pointsmasters": "507",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:45.80",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:43.64",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:36.75",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:03:29.05",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:04:26.91",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:05:26.32",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:06:12.14",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:06:57.36",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "BOKE",
+              "+@name": "Borough of Kirklees SC",
+              "+@name.en": "Borough of Kirklees SC",
+              "+@region": "YRKE",
+              "+@type": "CLUB",
+              "+@shortname": "Bo Kirklees",
+              "+@shortname.en": "Bo Kirklees",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1738",
+                  "+@lastname": "Worthy",
+                  "+@firstname": "Stewart",
+                  "+@nameprefix": "Stewart",
+                  "+@gender": "M",
+                  "+@birthdate": "1978-01-01",
+                  "+@age": "48",
+                  "+@license": "242485",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3084",
+                      "+@lane": "7",
+                      "+@entrytime": "00:05:23.41",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "5090",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:05:30.31",
+                      "+@reactiontime": "",
+                      "+@points": "359",
+                      "+@pointsmasters": "445",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:32.62",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:12.81",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:56.41",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:38.50",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:24.82",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:04:12.04",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:52.28",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:05:30.31",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "BRKS",
+              "+@name": "Bracknell & Wokingham SC",
+              "+@name.en": "Bracknell & Wokingham SC",
+              "+@region": "BSBS",
+              "+@type": "CLUB",
+              "+@shortname": "Bracknell",
+              "+@shortname.en": "Bracknell",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1024",
+                  "+@lastname": "Putans",
+                  "+@firstname": "Jevgenijs",
+                  "+@nameprefix": "Jevgenijs",
+                  "+@gender": "M",
+                  "+@birthdate": "1982-01-01",
+                  "+@age": "44",
+                  "+@license": "1503636",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3083",
+                      "+@lane": "5",
+                      "+@entrytime": "00:05:42.10",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "6302",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:05:33.95",
+                      "+@reactiontime": "",
+                      "+@points": "347",
+                      "+@pointsmasters": "418",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:33.12",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:14.24",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:59.37",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:44.96",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:28.43",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:04:12.41",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:54.54",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:05:33.95",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "CALA",
+              "+@name": "Calverton and Bingham SC",
+              "+@name.en": "Calverton and Bingham SC",
+              "+@region": "NTMA",
+              "+@type": "CLUB",
+              "+@shortname": "Calv Bing",
+              "+@shortname.en": "Calv Bing",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1047",
+                  "+@lastname": "Patterson",
+                  "+@firstname": "Mark",
+                  "+@nameprefix": "Mark",
+                  "+@gender": "M",
+                  "+@birthdate": "1964-01-01",
+                  "+@age": "62",
+                  "+@license": "1445",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3083",
+                      "+@lane": "3",
+                      "+@entrytime": "00:05:43.85",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "3109",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:05:48.08",
+                      "+@reactiontime": "",
+                      "+@points": "306",
+                      "+@pointsmasters": "517",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:35.41",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:16.86",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:03.12",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:48.75",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:39.17",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:04:30.13",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:05:08.89",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:05:48.08",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "BRIS",
+              "+@name": "City of Brighton and Hove",
+              "+@name.en": "City of Brighton and Hove",
+              "+@region": "SSXS",
+              "+@type": "CLUB",
+              "+@shortname": "Co B'ton & H",
+              "+@shortname.en": "Co B'ton & H",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1637",
+                  "+@lastname": "Read",
+                  "+@firstname": "Michael",
+                  "+@nameprefix": "Michael",
+                  "+@gender": "M",
+                  "+@birthdate": "1941-01-01",
+                  "+@age": "85",
+                  "+@license": "2552",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3081",
+                      "+@lane": "8",
+                      "+@entrytime": "00:10:37.95",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "5809",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:12:07.47",
+                      "+@reactiontime": "",
+                      "+@points": "33",
+                      "+@pointsmasters": "220",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:01:42.96",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:03:53.10",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:05:16.27",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:06:42.67",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:08:18.86",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "NT",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:11:01.27",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:12:07.47",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "CAMT",
+              "+@name": "City of Cambridge SC",
+              "+@name.en": "City of Cambridge SC",
+              "+@region": "CMBT",
+              "+@type": "CLUB",
+              "+@shortname": "Co Cambridge",
+              "+@shortname.en": "Co Cambridge",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1954",
+                  "+@lastname": "White",
+                  "+@firstname": "Gavin",
+                  "+@nameprefix": "Gavin",
+                  "+@gender": "M",
+                  "+@birthdate": "1978-01-01",
+                  "+@age": "48",
+                  "+@license": "81428",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3083",
+                      "+@lane": "6",
+                      "+@entrytime": "00:05:44.36",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "5827",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:05:44.98",
+                      "+@reactiontime": "",
+                      "+@points": "315",
+                      "+@pointsmasters": "391",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:36.10",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:20.20",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:04.78",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:48.65",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:35.47",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:04:23.71",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:05:05.06",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:05:44.98",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "CLPA",
+              "+@name": "City of Linc Pentaqua SC",
+              "+@name.en": "City of Linc Pentaqua SC",
+              "+@region": "LNCA",
+              "+@type": "CLUB",
+              "+@shortname": "Co Lincoln P",
+              "+@shortname.en": "Co Lincoln P",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1453",
+                    "+@lastname": "Evans",
+                    "+@firstname": "Daniel",
+                    "+@nameprefix": "Daniel",
+                    "+@gender": "M",
+                    "+@birthdate": "1995-01-01",
+                    "+@age": "31",
+                    "+@license": "189041",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3085",
+                        "+@lane": "0",
+                        "+@entrytime": "00:04:59.62",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "4325",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:05:00.18",
+                        "+@reactiontime": "",
+                        "+@points": "478",
+                        "+@pointsmasters": "486",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:29.57",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:04.18",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:01:43.94",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:22.57",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:04.24",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:03:46.19",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:04:23.72",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:05:00.18",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "2251",
+                    "+@lastname": "Smith",
+                    "+@firstname": "Barrie",
+                    "+@nameprefix": "Barrie",
+                    "+@gender": "M",
+                    "+@birthdate": "1976-01-01",
+                    "+@age": "50",
+                    "+@license": "1690251",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3082",
+                        "+@lane": "7",
+                        "+@entrytime": "00:06:20.13",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "8097",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:06:21.71",
+                        "+@reactiontime": "",
+                        "+@points": "232",
+                        "+@pointsmasters": "293",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:39.73",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:25.96",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:18.53",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:03:09.52",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:04:00.61",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:04:53.49",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:05:39.91",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:06:21.71",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "CRWS",
+              "+@name": "Crawley SC",
+              "+@name.en": "Crawley SC",
+              "+@region": "SSXS",
+              "+@type": "CLUB",
+              "+@shortname": "Crawley",
+              "+@shortname.en": "Crawley",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1577",
+                    "+@lastname": "Amaral Pinto",
+                    "+@firstname": "Goncalo",
+                    "+@nameprefix": "Goncalo",
+                    "+@gender": "M",
+                    "+@birthdate": "1988-01-01",
+                    "+@age": "38",
+                    "+@license": "1595493",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3084",
+                        "+@lane": "4",
+                        "+@entrytime": "00:05:00.95",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "4697",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:05:18.64",
+                        "+@reactiontime": "",
+                        "+@points": "400",
+                        "+@pointsmasters": "454",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:33.93",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:11.28",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:01:53.08",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:33.75",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:20.37",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:04:05.92",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:04:43.07",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:05:18.64",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "1490",
+                    "+@lastname": "Andrews",
+                    "+@firstname": "Scott",
+                    "+@nameprefix": "Scott",
+                    "+@gender": "M",
+                    "+@birthdate": "1996-01-01",
+                    "+@age": "30",
+                    "+@license": "207477",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3085",
+                        "+@lane": "9",
+                        "+@entrytime": "00:05:00.15",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "4437",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:05:16.02",
+                        "+@reactiontime": "",
+                        "+@points": "410",
+                        "+@pointsmasters": "411",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:30.44",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:07.45",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:01:49.80",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:30.95",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:18.48",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:04:06.08",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:04:41.73",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:05:16.02",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "DAGE",
+              "+@name": "Derwentside & Gateshead Swim Tea",
+              "+@name.en": "Derwentside & Gateshead Swim Tea",
+              "+@region": "NDRE",
+              "+@type": "CLUB",
+              "+@shortname": "Derwent&Gate",
+              "+@shortname.en": "Derwent&Gate",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1524",
+                  "+@lastname": "Grant",
+                  "+@firstname": "Matthew",
+                  "+@nameprefix": "Matthew",
+                  "+@gender": "M",
+                  "+@birthdate": "1964-01-01",
+                  "+@age": "62",
+                  "+@license": "54189",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3083",
+                      "+@lane": "9",
+                      "+@entrytime": "00:06:00.97",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "4538",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:06:04.34",
+                      "+@reactiontime": "",
+                      "+@points": "267",
+                      "+@pointsmasters": "451",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:37.42",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:20.08",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:52.87",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:03:45.69",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:04:40.08",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "NT",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:05:22.95",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:06:04.34",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "DOTT",
+              "+@name": "Diss Otters SC",
+              "+@name.en": "Diss Otters SC",
+              "+@region": "NRFT",
+              "+@type": "CLUB",
+              "+@shortname": "Diss Otters",
+              "+@shortname.en": "Diss Otters",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "2226",
+                  "+@lastname": "Lelean",
+                  "+@firstname": "Adam",
+                  "+@nameprefix": "Adam",
+                  "+@gender": "M",
+                  "+@birthdate": "1962-01-01",
+                  "+@age": "64",
+                  "+@license": "1390",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3082",
+                      "+@lane": "0",
+                      "+@entrytime": "00:06:30.59",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7059",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:06:40.14",
+                      "+@reactiontime": "",
+                      "+@points": "202",
+                      "+@pointsmasters": "371",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:46.35",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:39.02",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:29.99",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:03:20.41",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:04:15.64",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:05:12.86",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:05:57.27",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:06:40.14",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "GBPE",
+              "+@name": "Great Britain Police",
+              "+@name.en": "Great Britain Police",
+              "+@region": "NDRE",
+              "+@type": "CLUB",
+              "+@shortname": "G B Police",
+              "+@shortname.en": "G B Police",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1097",
+                  "+@lastname": "Conway",
+                  "+@firstname": "Dylan",
+                  "+@nameprefix": "Dylan",
+                  "+@gender": "M",
+                  "+@birthdate": "2000-01-01",
+                  "+@age": "26",
+                  "+@license": "718752",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3085",
+                      "+@lane": "5",
+                      "+@entrytime": "00:04:41.83",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "3254",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:04:44.64",
+                      "+@reactiontime": "",
+                      "+@points": "561",
+                      "+@pointsmasters": "555",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:27.99",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:00.78",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:37.65",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:14.33",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:55.82",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:38.21",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:11.82",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:44.64",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "WHBX",
+              "+@name": "Hamilton Baths ASC",
+              "+@name.en": "Hamilton Baths ASC",
+              "+@region": "SCWX",
+              "+@type": "CLUB",
+              "+@shortname": "Hamilton",
+              "+@shortname.en": "Hamilton",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1125",
+                  "+@lastname": "Lamb",
+                  "+@firstname": "Stephen Gerard",
+                  "+@nameprefix": "Stephen Gerard",
+                  "+@gender": "M",
+                  "+@birthdate": "1992-01-01",
+                  "+@age": "34",
+                  "+@license": "71435",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3085",
+                      "+@lane": "6",
+                      "+@entrytime": "00:04:45.32",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "3337",
+                      "+@eventid": "308",
+                      "+@swimtime": "NT",
+                      "+@reactiontime": "",
+                      "+@status": "DSQ",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "HISL",
+              "+@name": "Hillingdon Swimming Club",
+              "+@name.en": "Hillingdon Swimming Club",
+              "+@region": "MDXL",
+              "+@type": "CLUB",
+              "+@shortname": "Hillingdon",
+              "+@shortname.en": "Hillingdon",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1906",
+                    "+@lastname": "Southworth",
+                    "+@firstname": "Phil",
+                    "+@nameprefix": "Phil",
+                    "+@gender": "M",
+                    "+@birthdate": "1981-01-01",
+                    "+@age": "45",
+                    "+@license": "1359736",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3083",
+                        "+@lane": "2",
+                        "+@entrytime": "00:05:51.62",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "5650",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:05:59.30",
+                        "+@reactiontime": "",
+                        "+@points": "279",
+                        "+@pointsmasters": "338",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:36.74",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:20.95",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:10.82",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:03:00.62",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:48.41",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:04:36.46",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:05:18.22",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:05:59.30",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "1908",
+                    "+@lastname": "Thomas",
+                    "+@firstname": "Kevin",
+                    "+@nameprefix": "Kevin",
+                    "+@gender": "M",
+                    "+@birthdate": "1986-01-01",
+                    "+@age": "40",
+                    "+@license": "1736693",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3082",
+                        "+@lane": "1",
+                        "+@entrytime": "00:06:21.20",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "5659",
+                        "+@eventid": "308",
+                        "+@swimtime": "NT",
+                        "+@reactiontime": "",
+                        "+@status": "DNS",
+                        "+@points": "0",
+                        "+@pointsmasters": "0",
+                        "+@pointsmc": "0"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "KETA",
+              "+@name": "Kettering Amateur Swimming Club",
+              "+@name.en": "Kettering Amateur Swimming Club",
+              "+@region": "NHPA",
+              "+@type": "CLUB",
+              "+@shortname": "Kettering",
+              "+@shortname.en": "Kettering",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1927",
+                  "+@lastname": "Chacksfield",
+                  "+@firstname": "Justin",
+                  "+@nameprefix": "Justin",
+                  "+@gender": "M",
+                  "+@birthdate": "1972-01-01",
+                  "+@age": "54",
+                  "+@license": "1319239",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3081",
+                      "+@lane": "2",
+                      "+@entrytime": "00:07:01.52",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "5720",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:07:10.24",
+                      "+@reactiontime": "",
+                      "+@points": "162",
+                      "+@pointsmasters": "216",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:45.55",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:39.75",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:32.36",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:03:22.58",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:04:23.81",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:05:24.64",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:06:18.33",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:07:10.24",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "KAGS",
+              "+@name": "Kidlington & Gosford SC",
+              "+@name.en": "Kidlington & Gosford SC",
+              "+@region": "ONBS",
+              "+@type": "CLUB",
+              "+@shortname": "Kidlington",
+              "+@shortname.en": "Kidlington",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1929",
+                    "+@lastname": "Gardiner",
+                    "+@firstname": "John",
+                    "+@nameprefix": "John",
+                    "+@gender": "M",
+                    "+@birthdate": "1980-01-01",
+                    "+@age": "46",
+                    "+@license": "1501932",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3083",
+                        "+@lane": "7",
+                        "+@entrytime": "00:05:58.09",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "5736",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:06:05.99",
+                        "+@reactiontime": "",
+                        "+@points": "264",
+                        "+@pointsmasters": "322",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:35.22",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:18.81",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:10.54",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:59.47",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:51.87",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:04:45.72",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:05:27.36",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:06:05.99",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "1185",
+                    "+@lastname": "Gomez",
+                    "+@firstname": "Matthew",
+                    "+@nameprefix": "Matthew",
+                    "+@gender": "M",
+                    "+@birthdate": "1966-01-01",
+                    "+@age": "60",
+                    "+@license": "215",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3082",
+                        "+@lane": "3",
+                        "+@entrytime": "00:06:11.72",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "3519",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:06:43.81",
+                        "+@reactiontime": "",
+                        "+@points": "196",
+                        "+@pointsmasters": "307",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:36.21",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:23.91",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:14.60",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:03:06.00",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:04:02.79",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:04:59.92",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:05:52.73",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:06:43.81",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "LANN",
+              "+@name": "Lancaster City SC",
+              "+@name.en": "Lancaster City SC",
+              "+@region": "LNCN",
+              "+@type": "CLUB",
+              "+@shortname": "Lancaster",
+              "+@shortname.en": "Lancaster",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1941",
+                  "+@lastname": "Rolls",
+                  "+@firstname": "Harry",
+                  "+@nameprefix": "Harry",
+                  "+@gender": "M",
+                  "+@birthdate": "1995-01-01",
+                  "+@age": "31",
+                  "+@license": "743077",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3084",
+                      "+@lane": "9",
+                      "+@entrytime": "00:05:41.16",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "5774",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:05:53.31",
+                      "+@reactiontime": "",
+                      "+@points": "293",
+                      "+@pointsmasters": "298",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:35.51",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:18.53",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:04.41",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:50.66",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:39.89",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:04:31.08",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:05:12.55",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:05:53.31",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "LOUA",
+              "+@name": "Loughborough Town SC",
+              "+@name.en": "Loughborough Town SC",
+              "+@region": "LECA",
+              "+@type": "CLUB",
+              "+@shortname": "Loughborough",
+              "+@shortname.en": "Loughborough",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "2369",
+                  "+@lastname": "Lake",
+                  "+@firstname": "James",
+                  "+@nameprefix": "James",
+                  "+@gender": "M",
+                  "+@birthdate": "2007-01-01",
+                  "+@age": "19",
+                  "+@license": "1289508",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3085",
+                      "+@lane": "3",
+                      "+@entrytime": "00:04:43.93",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "8076",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:04:48.59",
+                      "+@reactiontime": "",
+                      "+@points": "538",
+                      "+@pointsmasters": "538",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:29.75",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:04.13",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:41.34",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:19.00",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:59.66",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:41.53",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:15.44",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:48.59",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "NUEL",
+              "+@name": "Newham & University of East Lond",
+              "+@name.en": "Newham & University of East Lond",
+              "+@region": "ESXQ",
+              "+@type": "CLUB",
+              "+@shortname": "Bo Newham",
+              "+@shortname.en": "Bo Newham",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "994",
+                  "+@lastname": "Wallace",
+                  "+@firstname": "Ian",
+                  "+@nameprefix": "Ian",
+                  "+@gender": "M",
+                  "+@birthdate": "1970-01-01",
+                  "+@age": "56",
+                  "+@license": "1295721",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3082",
+                      "+@lane": "6",
+                      "+@entrytime": "00:06:11.75",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "6253",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:06:00.48",
+                      "+@reactiontime": "",
+                      "+@points": "276",
+                      "+@pointsmasters": "384",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:36.87",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:18.41",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:53.55",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "NT",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:45.92",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:04:39.99",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:05:20.88",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:06:00.48",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "LEAA",
+              "+@name": "Nottingham Leander SC",
+              "+@name.en": "Nottingham Leander SC",
+              "+@region": "NTMA",
+              "+@type": "CLUB",
+              "+@shortname": "NottmLeander",
+              "+@shortname.en": "NottmLeander",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "744",
+                  "+@lastname": "Thurston",
+                  "+@firstname": "Alex",
+                  "+@nameprefix": "Alex",
+                  "+@gender": "M",
+                  "+@birthdate": "1981-01-01",
+                  "+@age": "45",
+                  "+@license": "1896",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3084",
+                      "+@lane": "3",
+                      "+@entrytime": "00:05:05.34",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "2220",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:04:57.48",
+                      "+@reactiontime": "",
+                      "+@points": "491",
+                      "+@pointsmasters": "596",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:31.16",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:06.57",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:45.02",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:23.17",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:06.05",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:48.61",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:24.37",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:57.48",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "OTTL",
+              "+@name": "Otter SC",
+              "+@name.en": "Otter SC",
+              "+@region": "MDXL",
+              "+@type": "CLUB",
+              "+@shortname": "Otter",
+              "+@shortname.en": "Otter",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "768",
+                    "+@lastname": "Mackay",
+                    "+@firstname": "Alexander",
+                    "+@nameprefix": "Alexander",
+                    "+@gender": "M",
+                    "+@birthdate": "1992-01-01",
+                    "+@age": "34",
+                    "+@license": "1697865",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3085",
+                        "+@lane": "7",
+                        "+@entrytime": "00:04:48.13",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "2294",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:04:37.20",
+                        "+@reactiontime": "",
+                        "+@points": "607",
+                        "+@pointsmasters": "649",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:28.40",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:02.05",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:01:38.18",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:13.66",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:02:53.37",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:03:34.29",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:04:06.91",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:04:37.20",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "770",
+                    "+@lastname": "Parr",
+                    "+@firstname": "Derek",
+                    "+@nameprefix": "Derek",
+                    "+@gender": "M",
+                    "+@birthdate": "1944-01-01",
+                    "+@age": "82",
+                    "+@license": "1767",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3081",
+                        "+@lane": "1",
+                        "+@entrytime": "00:07:40.00",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "2301",
+                        "+@eventid": "308",
+                        "+@swimtime": "NT",
+                        "+@reactiontime": "",
+                        "+@status": "DSQ",
+                        "+@points": "0",
+                        "+@pointsmasters": "0",
+                        "+@pointsmc": "0"
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "757",
+                    "+@lastname": "Rogers",
+                    "+@firstname": "Matthew",
+                    "+@nameprefix": "Matthew",
+                    "+@gender": "M",
+                    "+@birthdate": "2000-01-01",
+                    "+@age": "26",
+                    "+@license": "743615",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3085",
+                        "+@lane": "4",
+                        "+@entrytime": "00:04:31.59",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "2264",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:04:27.23",
+                        "+@reactiontime": "",
+                        "+@points": "678",
+                        "+@pointsmasters": "671",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:27.95",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:00.44",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:01:36.08",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:11.34",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:02:47.48",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:03:24.32",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:03:56.66",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:04:27.23",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "OUTL",
+              "+@name": "Out To Swim",
+              "+@name.en": "Out To Swim",
+              "+@region": "MDXL",
+              "+@type": "CLUB",
+              "+@shortname": "Out To Swim",
+              "+@shortname.en": "Out To Swim",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "2095",
+                    "+@lastname": "Ng",
+                    "+@firstname": "Antonio",
+                    "+@nameprefix": "Antonio",
+                    "+@gender": "M",
+                    "+@birthdate": "1981-01-01",
+                    "+@age": "45",
+                    "+@license": "1456135",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3082",
+                        "+@lane": "4",
+                        "+@entrytime": "00:06:07.10",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "6456",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:05:56.96",
+                        "+@reactiontime": "",
+                        "+@points": "284",
+                        "+@pointsmasters": "345",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:36.24",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:17.32",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:07.86",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:56.75",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:45.88",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:04:32.88",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:05:17.20",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:05:56.96",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "785",
+                    "+@lastname": "Unsworth",
+                    "+@firstname": "Christopher",
+                    "+@nameprefix": "Christopher",
+                    "+@gender": "M",
+                    "+@birthdate": "1991-01-01",
+                    "+@age": "35",
+                    "+@license": "22333",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3084",
+                        "+@lane": "0",
+                        "+@entrytime": "00:05:26.60",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "6446",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:05:12.31",
+                        "+@reactiontime": "",
+                        "+@points": "425",
+                        "+@pointsmasters": "461",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:31.49",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:09.30",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:01:48.33",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:27.49",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:12.20",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:03:57.63",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:04:35.82",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:05:12.31",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "POOW",
+              "+@name": "Poole SC",
+              "+@name.en": "Poole SC",
+              "+@region": "DRSW",
+              "+@type": "CLUB",
+              "+@shortname": "Poole",
+              "+@shortname.en": "Poole",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "795",
+                  "+@lastname": "Procter",
+                  "+@firstname": "Neil",
+                  "+@nameprefix": "Neil",
+                  "+@gender": "M",
+                  "+@birthdate": "1960-01-01",
+                  "+@age": "66",
+                  "+@license": "417114",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3081",
+                      "+@lane": "6",
+                      "+@entrytime": "00:06:54.50",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "2369",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:06:41.80",
+                      "+@reactiontime": "",
+                      "+@points": "199",
+                      "+@pointsmasters": "404",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:42.72",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:33.75",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:25.51",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:03:17.89",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:04:11.10",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:05:07.06",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:05:56.22",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:06:41.80",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "PRNN",
+              "+@name": "Preston Swimming Club",
+              "+@name.en": "Preston Swimming Club",
+              "+@region": "LNCN",
+              "+@type": "CLUB",
+              "+@shortname": "Preston",
+              "+@shortname.en": "Preston",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "812",
+                    "+@lastname": "Heaps",
+                    "+@firstname": "Dean",
+                    "+@nameprefix": "Dean",
+                    "+@gender": "M",
+                    "+@birthdate": "1992-01-01",
+                    "+@age": "34",
+                    "+@license": "43449",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3084",
+                        "+@lane": "6",
+                        "+@entrytime": "00:05:09.98",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "2420",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:05:22.80",
+                        "+@reactiontime": "",
+                        "+@points": "384",
+                        "+@pointsmasters": "411",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:31.23",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:08.90",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:01:52.48",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:36.37",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:19.28",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:04:03.16",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:04:43.78",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:05:22.80",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "821",
+                    "+@lastname": "Peacock",
+                    "+@firstname": "Michael",
+                    "+@nameprefix": "Michael",
+                    "+@gender": "M",
+                    "+@birthdate": "1987-01-01",
+                    "+@age": "39",
+                    "+@license": "6585",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3084",
+                        "+@lane": "2",
+                        "+@entrytime": "00:05:10.62",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "2449",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:05:11.10",
+                        "+@reactiontime": "",
+                        "+@points": "429",
+                        "+@pointsmasters": "495",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:32.33",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:10.16",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:01:49.70",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:29.15",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:14.04",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:03:58.48",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:04:35.90",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:05:11.10",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "SPEL",
+              "+@name": "Spencer Swim Team",
+              "+@name.en": "Spencer Swim Team",
+              "+@region": "SRYQ",
+              "+@type": "CLUB",
+              "+@shortname": "Spencer",
+              "+@shortname.en": "Spencer",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "2154",
+                  "+@lastname": "Milana",
+                  "+@firstname": "Luca",
+                  "+@nameprefix": "Luca",
+                  "+@gender": "M",
+                  "+@birthdate": "1972-01-01",
+                  "+@age": "54",
+                  "+@license": "1218941",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3083",
+                      "+@lane": "0",
+                      "+@entrytime": "00:05:59.97",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "6698",
+                      "+@eventid": "308",
+                      "+@swimtime": "NT",
+                      "+@reactiontime": "",
+                      "+@status": "DSQ",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "STOT",
+              "+@name": "Stowmarket SC",
+              "+@name.en": "Stowmarket SC",
+              "+@region": "SFKT",
+              "+@type": "CLUB",
+              "+@shortname": "Stowmarket",
+              "+@shortname.en": "Stowmarket",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1235",
+                  "+@lastname": "Debenham",
+                  "+@firstname": "Matthew",
+                  "+@nameprefix": "Matthew",
+                  "+@gender": "M",
+                  "+@birthdate": "2004-01-01",
+                  "+@age": "22",
+                  "+@license": "805701",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3085",
+                      "+@lane": "1",
+                      "+@entrytime": "00:04:55.44",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "3658",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:05:07.75",
+                      "+@reactiontime": "",
+                      "+@points": "444",
+                      "+@pointsmasters": "444",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:29.89",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:07.02",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:48.98",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:30.20",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:13.41",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:56.77",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:32.81",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:05:07.75",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "TANT",
+              "+@name": "Team Anglia Masters Swimming Clu",
+              "+@name.en": "Team Anglia Masters Swimming Clu",
+              "+@region": "SFKT",
+              "+@type": "CLUB",
+              "+@shortname": "Team Anglia",
+              "+@shortname.en": "Team Anglia",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "2164",
+                    "+@lastname": "Chadwick",
+                    "+@firstname": "Matthew",
+                    "+@nameprefix": "Matthew",
+                    "+@gender": "M",
+                    "+@birthdate": "1994-01-01",
+                    "+@age": "32",
+                    "+@license": "257876",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3083",
+                        "+@lane": "1",
+                        "+@entrytime": "00:05:58.87",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "6754",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:05:59.00",
+                        "+@reactiontime": "",
+                        "+@points": "279",
+                        "+@pointsmasters": "288",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:37.50",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:21.30",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:07.03",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:52.54",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:48.01",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:04:44.27",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:05:23.32",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:05:59.00",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "2165",
+                    "+@lastname": "Russell",
+                    "+@firstname": "Pete",
+                    "+@nameprefix": "Pete",
+                    "+@gender": "M",
+                    "+@birthdate": "1968-01-01",
+                    "+@age": "58",
+                    "+@license": "1482290",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3082",
+                        "+@lane": "9",
+                        "+@entrytime": "00:06:41.46",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "6761",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:06:52.33",
+                        "+@reactiontime": "",
+                        "+@points": "184",
+                        "+@pointsmasters": "270",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:40.26",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:33.57",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:32.21",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:03:27.54",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:04:24.38",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:05:22.11",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:06:07.38",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:06:52.33",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "LUTT",
+              "+@name": "Team Luton Swimming",
+              "+@name.en": "Team Luton Swimming",
+              "+@region": "BDFT",
+              "+@type": "CLUB",
+              "+@shortname": "Team Luton",
+              "+@shortname.en": "Team Luton",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1276",
+                    "+@lastname": "Gibb",
+                    "+@firstname": "Alastair",
+                    "+@nameprefix": "Alastair",
+                    "+@gender": "M",
+                    "+@birthdate": "1960-01-01",
+                    "+@age": "66",
+                    "+@license": "1151365",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3081",
+                        "+@lane": "5",
+                        "+@entrytime": "00:06:48.28",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "3774",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:07:01.51",
+                        "+@reactiontime": "",
+                        "+@points": "172",
+                        "+@pointsmasters": "350",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:44.79",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:42.91",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:35.84",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:03:27.24",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:04:25.65",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:05:26.64",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:06:12.94",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:07:01.51",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "2169",
+                    "+@lastname": "Lewis",
+                    "+@firstname": "Mark",
+                    "+@nameprefix": "Mark",
+                    "+@gender": "M",
+                    "+@birthdate": "1982-01-01",
+                    "+@age": "44",
+                    "+@license": "1772410",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3083",
+                        "+@lane": "8",
+                        "+@entrytime": "00:05:59.47",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "6777",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:06:06.27",
+                        "+@reactiontime": "",
+                        "+@points": "263",
+                        "+@pointsmasters": "317",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:35.14",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:18.04",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:08.90",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:59.51",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:51.29",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:04:44.09",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:05:27.08",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:06:06.27",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "TOTW",
+              "+@name": "Totnes SC",
+              "+@name.en": "Totnes SC",
+              "+@region": "DVNW",
+              "+@type": "CLUB",
+              "+@shortname": "Totnes",
+              "+@shortname.en": "Totnes",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1729",
+                  "+@lastname": "Cowell",
+                  "+@firstname": "Gareth",
+                  "+@nameprefix": "Gareth",
+                  "+@gender": "M",
+                  "+@birthdate": "1975-01-01",
+                  "+@age": "51",
+                  "+@license": "1375",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3084",
+                      "+@lane": "8",
+                      "+@entrytime": "00:05:26.12",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "5069",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:05:18.57",
+                      "+@reactiontime": "",
+                      "+@points": "400",
+                      "+@pointsmasters": "511",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:32.32",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:10.55",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:52.56",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:34.31",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:17.00",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:04:00.65",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:40.21",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:05:18.57",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "TMBN",
+              "+@name": "Trafford Metro Bor SC",
+              "+@name.en": "Trafford Metro Bor SC",
+              "+@region": "CHRN",
+              "+@type": "CLUB",
+              "+@shortname": "Trafford Met",
+              "+@shortname.en": "Trafford Met",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1604",
+                  "+@lastname": "Knight",
+                  "+@firstname": "Christopher",
+                  "+@nameprefix": "Christopher",
+                  "+@gender": "M",
+                  "+@birthdate": "1991-01-01",
+                  "+@age": "35",
+                  "+@license": "36069",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3085",
+                      "+@lane": "2",
+                      "+@entrytime": "00:04:46.04",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "4760",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:04:38.30",
+                      "+@reactiontime": "",
+                      "+@points": "600",
+                      "+@pointsmasters": "652",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:28.97",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:01.71",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:38.78",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:15.18",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:54.52",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:34.31",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:07.31",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:38.30",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "WMSN",
+              "+@name": "Warrington Masters Swimming Club",
+              "+@name.en": "Warrington Masters Swimming Club",
+              "+@region": "CHRN",
+              "+@type": "CLUB",
+              "+@shortname": "Warrington M",
+              "+@shortname.en": "Warrington M",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": {
+                  "+@athleteid": "1352",
+                  "+@lastname": "Jones",
+                  "+@firstname": "Mark",
+                  "+@nameprefix": "Mark",
+                  "+@gender": "M",
+                  "+@birthdate": "1960-01-01",
+                  "+@age": "66",
+                  "+@license": "3148",
+                  "+@nation": "GBR",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "308",
+                      "+@heatid": "3082",
+                      "+@lane": "8",
+                      "+@entrytime": "00:06:24.70",
+                      "+@entrycourse": "SCM"
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "4021",
+                      "+@eventid": "308",
+                      "+@swimtime": "00:06:38.17",
+                      "+@reactiontime": "",
+                      "+@points": "205",
+                      "+@pointsmasters": "415",
+                      "+@pointsmc": "0",
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:42.93",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:35.99",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:30.69",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:03:22.32",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:04:17.45",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:05:12.84",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:05:56.59",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:06:38.17",
+                            "+@distance": "400"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "+@code": "WCOM",
+              "+@name": "Wrekin SC",
+              "+@name.en": "Wrekin SC",
+              "+@region": "SHPM",
+              "+@type": "CLUB",
+              "+@shortname": "Wrekin SC",
+              "+@shortname.en": "Wrekin SC",
+              "+@nation": "GBR",
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1396",
+                    "+@lastname": "Clarke",
+                    "+@firstname": "David",
+                    "+@nameprefix": "David",
+                    "+@gender": "M",
+                    "+@birthdate": "1964-01-01",
+                    "+@age": "62",
+                    "+@license": "119",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3082",
+                        "+@lane": "5",
+                        "+@entrytime": "00:06:09.40",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "4154",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:06:19.07",
+                        "+@reactiontime": "",
+                        "+@points": "237",
+                        "+@pointsmasters": "400",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:38.20",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:24.52",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:13.42",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:03:02.29",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:57.15",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:04:53.52",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:05:36.88",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:06:19.07",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@athleteid": "1397",
+                    "+@lastname": "Slawson",
+                    "+@firstname": "Will",
+                    "+@nameprefix": "Will",
+                    "+@gender": "M",
+                    "+@birthdate": "1997-01-01",
+                    "+@age": "29",
+                    "+@license": "549638",
+                    "+@nation": "GBR",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "308",
+                        "+@heatid": "3085",
+                        "+@lane": "8",
+                        "+@entrytime": "00:04:59.50",
+                        "+@entrycourse": "SCM"
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "6185",
+                        "+@eventid": "308",
+                        "+@swimtime": "00:04:51.44",
+                        "+@reactiontime": "",
+                        "+@points": "523",
+                        "+@pointsmasters": "518",
+                        "+@pointsmc": "0",
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:28.71",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:02.34",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:01:42.63",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:02:22.23",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:03:03.35",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:03:44.80",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:04:18.85",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:04:51.44",
+                              "+@distance": "400"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

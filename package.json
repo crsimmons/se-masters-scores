@@ -1,0 +1,17 @@
+{
+  "name": "se-masters-scores",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "python3 scripts/calculate_team_scores.py && vite build && node scripts/check-build.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "echarts": "^6.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}

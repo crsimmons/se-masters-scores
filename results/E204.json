@@ -1,0 +1,2356 @@
+{
+  "status": "complete",
+  "meet": {
+    "name": "Swim England Masters 2026",
+    "city": "Sheffield",
+    "date": "2026-10-23",
+    "course": "SCM"
+  },
+  "event": {
+    "id": 204,
+    "number": 204,
+    "name": "Open 200m Freestyle",
+    "distance_m": 200,
+    "stroke": "FREE"
+  },
+  "age_groups": [
+    {
+      "name": "18/24 Yrs Age Group",
+      "age_min": 18,
+      "age_max": 24,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "Jonathan Mullett",
+            "age": 23,
+            "gender": "M"
+          },
+          "club": {
+            "code": "WINN",
+            "name": "Winsford Swimming Club"
+          },
+          "time": "00:01:59.96"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "Alex Davidson",
+            "age": 21,
+            "gender": "M"
+          },
+          "club": {
+            "code": "CONE",
+            "name": "Consett SC"
+          },
+          "time": "00:02:01.47"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "swimmer": {
+            "name": "Gethin Cowell",
+            "age": 18,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TOTW",
+            "name": "Totnes SC"
+          },
+          "time": "00:02:03.10"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "swimmer": {
+            "name": "Luca Gunawardena",
+            "age": 23,
+            "gender": "M"
+          },
+          "club": {
+            "code": "NORT",
+            "name": "City of Norwich SC"
+          },
+          "time": "00:02:03.98"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "swimmer": {
+            "name": "Harvey Maunders",
+            "age": 22,
+            "gender": "M"
+          },
+          "club": {
+            "code": "ERIL",
+            "name": "Erith & District SC"
+          },
+          "time": "00:02:06.05"
+        },
+        {
+          "order": 6,
+          "place": 6,
+          "swimmer": {
+            "name": "Joshua Prowse",
+            "age": 23,
+            "gender": "M"
+          },
+          "club": {
+            "code": "KUHE",
+            "name": "Kingston Upon Hull SC"
+          },
+          "time": "00:02:08.59"
+        },
+        {
+          "order": 7,
+          "place": 7,
+          "swimmer": {
+            "name": "Samuel Hurst",
+            "age": 23,
+            "gender": "M"
+          },
+          "club": {
+            "code": "DEXA",
+            "name": "Derby Excel Swimming Club"
+          },
+          "time": "00:02:10.34"
+        },
+        {
+          "order": 8,
+          "place": 8,
+          "swimmer": {
+            "name": "Nicholas Balls",
+            "age": 21,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BOLE",
+            "name": "Boldon C.A. Swim Club"
+          },
+          "time": "00:02:14.38"
+        },
+        {
+          "order": 9,
+          "place": 9,
+          "swimmer": {
+            "name": "Luke Dodd",
+            "age": 24,
+            "gender": "M"
+          },
+          "club": {
+            "code": "HETE",
+            "name": "Hetton SC"
+          },
+          "time": "00:02:14.69"
+        },
+        {
+          "order": 10,
+          "place": 10,
+          "swimmer": {
+            "name": "James Shea",
+            "age": 22,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BLAS",
+            "name": "Black Lion SC"
+          },
+          "time": "00:02:16.82"
+        },
+        {
+          "order": 11,
+          "place": 11,
+          "swimmer": {
+            "name": "James Lewis",
+            "age": 24,
+            "gender": "M"
+          },
+          "club": {
+            "code": "WYCS",
+            "name": "Wycombe District SC"
+          },
+          "time": "00:02:17.21"
+        }
+      ]
+    },
+    {
+      "name": "25/29 Yrs Age Group",
+      "age_min": 25,
+      "age_max": 29,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "Arran Francis",
+            "age": 27,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TMBN",
+            "name": "Trafford Metro Bor SC"
+          },
+          "time": "00:01:50.11"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "Matthew Rogers",
+            "age": 26,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:01:53.20"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "swimmer": {
+            "name": "Max Murphy",
+            "age": 26,
+            "gender": "M"
+          },
+          "club": {
+            "code": "GBPE",
+            "name": "Great Britain Police"
+          },
+          "time": "00:01:54.71"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "swimmer": {
+            "name": "Harry Robinson",
+            "age": 28,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:01:56.81"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "swimmer": {
+            "name": "George Russell",
+            "age": 29,
+            "gender": "M"
+          },
+          "club": {
+            "code": "ELEE",
+            "name": "East Leeds SC"
+          },
+          "time": "00:01:57.15"
+        },
+        {
+          "order": 6,
+          "place": 6,
+          "swimmer": {
+            "name": "Samuel Naylor",
+            "age": 26,
+            "gender": "M"
+          },
+          "club": {
+            "code": "ELEE",
+            "name": "East Leeds SC"
+          },
+          "time": "00:01:57.35"
+        },
+        {
+          "order": 7,
+          "place": 7,
+          "swimmer": {
+            "name": "Richard Murray",
+            "age": 26,
+            "gender": "M"
+          },
+          "club": {
+            "code": "DDME",
+            "name": "Darlington Dolphin Masters SC"
+          },
+          "time": "00:01:57.70"
+        },
+        {
+          "order": 8,
+          "place": 8,
+          "swimmer": {
+            "name": "James Vick",
+            "age": 27,
+            "gender": "M"
+          },
+          "club": {
+            "code": "ERIL",
+            "name": "Erith & District SC"
+          },
+          "time": "00:01:57.87"
+        },
+        {
+          "order": 9,
+          "place": 9,
+          "swimmer": {
+            "name": "James Lowder",
+            "age": 29,
+            "gender": "M"
+          },
+          "club": {
+            "code": "EHMX",
+            "name": "Heart Of Midlothian ASC"
+          },
+          "time": "00:02:00.10"
+        },
+        {
+          "order": 10,
+          "place": 10,
+          "swimmer": {
+            "name": "Will Slawson",
+            "age": 29,
+            "gender": "M"
+          },
+          "club": {
+            "code": "WCOM",
+            "name": "Wrekin SC"
+          },
+          "time": "00:02:00.57"
+        },
+        {
+          "order": 11,
+          "place": 11,
+          "swimmer": {
+            "name": "Alexander Morris",
+            "age": 27,
+            "gender": "M"
+          },
+          "club": {
+            "code": "HAGL",
+            "name": "Hackney Anaconda"
+          },
+          "time": "00:02:01.23"
+        },
+        {
+          "order": 12,
+          "place": 12,
+          "swimmer": {
+            "name": "Dylan Fairclough",
+            "age": 26,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:02:01.37"
+        },
+        {
+          "order": 13,
+          "place": 13,
+          "swimmer": {
+            "name": "Huw Jones",
+            "age": 29,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BRKS",
+            "name": "Bracknell & Wokingham SC"
+          },
+          "time": "00:02:02.88"
+        },
+        {
+          "order": 14,
+          "place": 14,
+          "swimmer": {
+            "name": "Andro Tikvica",
+            "age": 29,
+            "gender": "M"
+          },
+          "club": {
+            "code": "ACEL",
+            "name": "AC East London"
+          },
+          "time": "00:02:03.55"
+        },
+        {
+          "order": 15,
+          "place": 15,
+          "swimmer": {
+            "name": "Kallum Morris",
+            "age": 27,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OTNE",
+            "name": "Out to Swim Newcastle"
+          },
+          "time": "00:02:06.77"
+        },
+        {
+          "order": 16,
+          "place": 16,
+          "swimmer": {
+            "name": "Matthew Hunt",
+            "age": 25,
+            "gender": "M"
+          },
+          "club": {
+            "code": "MBDT",
+            "name": "Flitwick Dolphins SC"
+          },
+          "time": "00:02:08.70"
+        },
+        {
+          "order": 17,
+          "place": 17,
+          "swimmer": {
+            "name": "Kieran Ogg",
+            "age": 29,
+            "gender": "M"
+          },
+          "club": {
+            "code": "NSCX",
+            "name": "Silver City Blues ASC"
+          },
+          "time": "00:02:08.82"
+        },
+        {
+          "order": 18,
+          "place": 18,
+          "swimmer": {
+            "name": "Matthew Nash",
+            "age": 28,
+            "gender": "M"
+          },
+          "club": {
+            "code": "COSS",
+            "name": "City of Southampton SC"
+          },
+          "time": "00:02:13.12"
+        },
+        {
+          "order": 19,
+          "place": 19,
+          "swimmer": {
+            "name": "Giacomo Radaelli",
+            "age": 26,
+            "gender": "M"
+          },
+          "club": {
+            "code": "ACEL",
+            "name": "AC East London"
+          },
+          "time": "00:02:16.67"
+        },
+        {
+          "order": 20,
+          "place": 20,
+          "swimmer": {
+            "name": "George Cain",
+            "age": 27,
+            "gender": "M"
+          },
+          "club": {
+            "code": "HOYN",
+            "name": "Hoylake SC"
+          },
+          "time": "00:02:23.12"
+        }
+      ]
+    },
+    {
+      "name": "30/34 Yrs Age Group",
+      "age_min": 30,
+      "age_max": 34,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "Robert Bryce",
+            "age": 32,
+            "gender": "M"
+          },
+          "club": {
+            "code": "NSCX",
+            "name": "Silver City Blues ASC"
+          },
+          "time": "00:01:53.15"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "Alexander Mackay",
+            "age": 34,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:01:53.83"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "swimmer": {
+            "name": "Guy Giles",
+            "age": 32,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BIRM",
+            "name": "Birmingham Masters"
+          },
+          "time": "00:01:57.80"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "swimmer": {
+            "name": "Stephen Gerard Lamb",
+            "age": 34,
+            "gender": "M"
+          },
+          "club": {
+            "code": "WHBX",
+            "name": "Hamilton Baths ASC"
+          },
+          "time": "00:01:58.64"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "swimmer": {
+            "name": "Jonathan Altoft",
+            "age": 32,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TMBN",
+            "name": "Trafford Metro Bor SC"
+          },
+          "time": "00:02:02.48"
+        },
+        {
+          "order": 6,
+          "place": 6,
+          "swimmer": {
+            "name": "Koen Van Lieshout",
+            "age": 31,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OUTL",
+            "name": "Out To Swim"
+          },
+          "time": "00:02:04.96"
+        },
+        {
+          "order": 7,
+          "place": 7,
+          "swimmer": {
+            "name": "Max Nozedar",
+            "age": 30,
+            "gender": "M"
+          },
+          "club": {
+            "code": "NSCX",
+            "name": "Silver City Blues ASC"
+          },
+          "time": "00:02:05.49"
+        },
+        {
+          "order": 8,
+          "place": 8,
+          "swimmer": {
+            "name": "Anthony Simpson",
+            "age": 33,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BOLE",
+            "name": "Boldon C.A. Swim Club"
+          },
+          "time": "00:02:05.95"
+        },
+        {
+          "order": 9,
+          "place": 9,
+          "swimmer": {
+            "name": "Pietro Cruciani",
+            "age": 33,
+            "gender": "M"
+          },
+          "club": {
+            "code": "REAS",
+            "name": "Reading SC"
+          },
+          "time": "00:02:06.25"
+        },
+        {
+          "order": 10,
+          "place": 10,
+          "swimmer": {
+            "name": "John McDonald",
+            "age": 32,
+            "gender": "M"
+          },
+          "club": {
+            "code": "EHMX",
+            "name": "Heart Of Midlothian ASC"
+          },
+          "time": "00:02:09.06"
+        },
+        {
+          "order": 11,
+          "place": 11,
+          "swimmer": {
+            "name": "Douglas Willetts",
+            "age": 30,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:02:09.52"
+        },
+        {
+          "order": 12,
+          "place": 12,
+          "swimmer": {
+            "name": "Ian Sutherland",
+            "age": 34,
+            "gender": "M"
+          },
+          "club": {
+            "code": "EHMX",
+            "name": "Heart Of Midlothian ASC"
+          },
+          "time": "00:02:09.54"
+        },
+        {
+          "order": 13,
+          "place": 13,
+          "swimmer": {
+            "name": "Lawrence Oxborough",
+            "age": 34,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BRAS",
+            "name": "British Army"
+          },
+          "time": "00:02:10.00"
+        },
+        {
+          "order": 14,
+          "place": 14,
+          "swimmer": {
+            "name": "Jack Moss",
+            "age": 31,
+            "gender": "M"
+          },
+          "club": {
+            "code": "EMAW",
+            "name": "Exe Masters Swimming Club"
+          },
+          "time": "00:02:10.48"
+        },
+        {
+          "order": 15,
+          "place": 15,
+          "swimmer": {
+            "name": "Carl Halford",
+            "age": 33,
+            "gender": "M"
+          },
+          "club": {
+            "code": "COSS",
+            "name": "City of Southampton SC"
+          },
+          "time": "00:02:11.34"
+        },
+        {
+          "order": 16,
+          "place": 16,
+          "swimmer": {
+            "name": "Myles Hanlon",
+            "age": 30,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OUTL",
+            "name": "Out To Swim"
+          },
+          "time": "00:02:18.85"
+        },
+        {
+          "order": 17,
+          "place": 17,
+          "swimmer": {
+            "name": "David Westcough",
+            "age": 32,
+            "gender": "M"
+          },
+          "club": {
+            "code": "ELEE",
+            "name": "East Leeds SC"
+          },
+          "time": "00:02:19.97"
+        },
+        {
+          "order": 18,
+          "place": 18,
+          "swimmer": {
+            "name": "Thomas Allen",
+            "age": 30,
+            "gender": "M"
+          },
+          "club": {
+            "code": "MBDT",
+            "name": "Flitwick Dolphins SC"
+          },
+          "time": "00:02:21.78"
+        },
+        {
+          "order": 19,
+          "place": 19,
+          "swimmer": {
+            "name": "Oliver Cocks",
+            "age": 31,
+            "gender": "M"
+          },
+          "club": {
+            "code": "NEWA",
+            "name": "Newark SC"
+          },
+          "time": "00:02:22.13"
+        },
+        {
+          "order": 20,
+          "place": 20,
+          "swimmer": {
+            "name": "Matthew Chadwick",
+            "age": 32,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TANT",
+            "name": "Team Anglia Masters Swimming Clu"
+          },
+          "time": "00:02:22.99"
+        },
+        {
+          "order": 21,
+          "place": 21,
+          "swimmer": {
+            "name": "Christopher May",
+            "age": 34,
+            "gender": "M"
+          },
+          "club": {
+            "code": "PCPY",
+            "name": "Pembrokeshire County Swimming"
+          },
+          "time": "00:02:24.21"
+        },
+        {
+          "order": 22,
+          "place": 22,
+          "swimmer": {
+            "name": "Lee Newcombe",
+            "age": 33,
+            "gender": "M"
+          },
+          "club": {
+            "code": "HOYN",
+            "name": "Hoylake SC"
+          },
+          "time": "00:02:24.89"
+        },
+        {
+          "order": 23,
+          "place": 23,
+          "swimmer": {
+            "name": "Sam Bradley",
+            "age": 33,
+            "gender": "M"
+          },
+          "club": {
+            "code": "LUTT",
+            "name": "Team Luton Swimming"
+          },
+          "time": "00:02:41.92"
+        }
+      ]
+    },
+    {
+      "name": "35/39 Yrs Age Group",
+      "age_min": 35,
+      "age_max": 39,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "Daniel Mills",
+            "age": 35,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TMBN",
+            "name": "Trafford Metro Bor SC"
+          },
+          "time": "00:01:52.06"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "James Dickinson",
+            "age": 36,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BEAS",
+            "name": "Beau Sejour Barracuda SC"
+          },
+          "time": "00:02:00.70"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "swimmer": {
+            "name": "Ka Chun Suen",
+            "age": 35,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:02:04.23"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "swimmer": {
+            "name": "Mathew Breckon",
+            "age": 36,
+            "gender": "M"
+          },
+          "club": {
+            "code": "CRWS",
+            "name": "Crawley SC"
+          },
+          "time": "00:02:04.81"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "swimmer": {
+            "name": "Alejandro Romero",
+            "age": 37,
+            "gender": "M"
+          },
+          "club": {
+            "code": "NUEL",
+            "name": "Newham & University of East Lond"
+          },
+          "time": "00:02:05.95"
+        },
+        {
+          "order": 6,
+          "place": 6,
+          "swimmer": {
+            "name": "Yigit Guven",
+            "age": 39,
+            "gender": "M"
+          },
+          "club": {
+            "code": "NUEL",
+            "name": "Newham & University of East Lond"
+          },
+          "time": "00:02:06.56"
+        },
+        {
+          "order": 7,
+          "place": 7,
+          "swimmer": {
+            "name": "Ben Dixon",
+            "age": 35,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BICA",
+            "name": "Bircotes SC"
+          },
+          "time": "00:02:06.91"
+        },
+        {
+          "order": 8,
+          "place": 8,
+          "swimmer": {
+            "name": "Ben Allsopp",
+            "age": 36,
+            "gender": "M"
+          },
+          "club": {
+            "code": "WYCS",
+            "name": "Wycombe District SC"
+          },
+          "time": "00:02:13.90"
+        },
+        {
+          "order": 9,
+          "place": 9,
+          "swimmer": {
+            "name": "James Warren",
+            "age": 36,
+            "gender": "M"
+          },
+          "club": {
+            "code": "ELEE",
+            "name": "East Leeds SC"
+          },
+          "time": "00:02:15.69"
+        },
+        {
+          "order": 10,
+          "place": -1,
+          "swimmer": {
+            "name": "James Gibson",
+            "age": 35,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TMBN",
+            "name": "Trafford Metro Bor SC"
+          },
+          "time": "NT"
+        },
+        {
+          "order": 11,
+          "place": -1,
+          "swimmer": {
+            "name": "Dan John",
+            "age": 39,
+            "gender": "M"
+          },
+          "club": {
+            "code": "REAS",
+            "name": "Reading SC"
+          },
+          "time": "NT"
+        }
+      ]
+    },
+    {
+      "name": "40/44 Yrs Age Group",
+      "age_min": 40,
+      "age_max": 44,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "James Wardle",
+            "age": 41,
+            "gender": "M"
+          },
+          "club": {
+            "code": "KEMM",
+            "name": "Kenilworth Masters SC"
+          },
+          "time": "00:01:56.53"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "Jonathan Richards",
+            "age": 44,
+            "gender": "M"
+          },
+          "club": {
+            "code": "KAGS",
+            "name": "Kidlington & Gosford SC"
+          },
+          "time": "00:02:04.80"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "swimmer": {
+            "name": "Sean Peers",
+            "age": 41,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TMBN",
+            "name": "Trafford Metro Bor SC"
+          },
+          "time": "00:02:05.34"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "swimmer": {
+            "name": "Robert Rudge",
+            "age": 43,
+            "gender": "M"
+          },
+          "club": {
+            "code": "GLMW",
+            "name": "Gloucester Masters SC"
+          },
+          "time": "00:02:09.53"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "swimmer": {
+            "name": "Christopher Millard",
+            "age": 40,
+            "gender": "M"
+          },
+          "club": {
+            "code": "MEMS",
+            "name": "Medway Maritime Swimming Club"
+          },
+          "time": "00:02:10.72"
+        },
+        {
+          "order": 6,
+          "place": 6,
+          "swimmer": {
+            "name": "James Gill",
+            "age": 44,
+            "gender": "M"
+          },
+          "club": {
+            "code": "CAMT",
+            "name": "City of Cambridge SC"
+          },
+          "time": "00:02:11.96"
+        },
+        {
+          "order": 7,
+          "place": 7,
+          "swimmer": {
+            "name": "Jared Golden",
+            "age": 41,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:02:12.15"
+        },
+        {
+          "order": 8,
+          "place": 8,
+          "swimmer": {
+            "name": "David Taylor",
+            "age": 40,
+            "gender": "M"
+          },
+          "club": {
+            "code": "EHMX",
+            "name": "Heart Of Midlothian ASC"
+          },
+          "time": "00:02:12.42"
+        },
+        {
+          "order": 9,
+          "place": 9,
+          "swimmer": {
+            "name": "Oliver Bumstead",
+            "age": 43,
+            "gender": "M"
+          },
+          "club": {
+            "code": "STOT",
+            "name": "Stowmarket SC"
+          },
+          "time": "00:02:15.50"
+        },
+        {
+          "order": 10,
+          "place": 10,
+          "swimmer": {
+            "name": "William Askey",
+            "age": 40,
+            "gender": "M"
+          },
+          "club": {
+            "code": "NEWM",
+            "name": "Newcastle (Staffs) ASC"
+          },
+          "time": "00:02:15.79"
+        },
+        {
+          "order": 11,
+          "place": 11,
+          "swimmer": {
+            "name": "James Ainley",
+            "age": 44,
+            "gender": "M"
+          },
+          "club": {
+            "code": "WINS",
+            "name": "Windsor SC"
+          },
+          "time": "00:02:17.08"
+        },
+        {
+          "order": 12,
+          "place": 12,
+          "swimmer": {
+            "name": "Richard Reed",
+            "age": 42,
+            "gender": "M"
+          },
+          "club": {
+            "code": "PORS",
+            "name": "Portsmouth Northsea SC"
+          },
+          "time": "00:02:18.30"
+        },
+        {
+          "order": 13,
+          "place": 13,
+          "swimmer": {
+            "name": "Andrew Hutchinson",
+            "age": 41,
+            "gender": "M"
+          },
+          "club": {
+            "code": "EHMX",
+            "name": "Heart Of Midlothian ASC"
+          },
+          "time": "00:02:23.99"
+        },
+        {
+          "order": 14,
+          "place": 14,
+          "swimmer": {
+            "name": "Elliot White",
+            "age": 41,
+            "gender": "M"
+          },
+          "club": {
+            "code": "DURE",
+            "name": "Durham City ASC"
+          },
+          "time": "00:02:24.37"
+        },
+        {
+          "order": 15,
+          "place": 15,
+          "swimmer": {
+            "name": "David Wood",
+            "age": 44,
+            "gender": "M"
+          },
+          "club": {
+            "code": "AYBS",
+            "name": "Aylesbury & District SC"
+          },
+          "time": "00:02:27.04"
+        },
+        {
+          "order": 16,
+          "place": 16,
+          "swimmer": {
+            "name": "Kevin Thomas",
+            "age": 40,
+            "gender": "M"
+          },
+          "club": {
+            "code": "HISL",
+            "name": "Hillingdon Swimming Club"
+          },
+          "time": "00:02:29.48"
+        },
+        {
+          "order": 17,
+          "place": 17,
+          "swimmer": {
+            "name": "Del Jackson",
+            "age": 44,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OUTL",
+            "name": "Out To Swim"
+          },
+          "time": "00:02:37.67"
+        },
+        {
+          "order": 18,
+          "place": -1,
+          "swimmer": {
+            "name": "Richard Taverner",
+            "age": 43,
+            "gender": "M"
+          },
+          "club": {
+            "code": "NGHX",
+            "name": "Garioch ASC"
+          },
+          "time": "NT"
+        },
+        {
+          "order": 19,
+          "place": -1,
+          "swimmer": {
+            "name": "Anthony Phillips",
+            "age": 40,
+            "gender": "M"
+          },
+          "club": {
+            "code": "WAMW",
+            "name": "Warminster & District ASC"
+          },
+          "time": "NT"
+        }
+      ]
+    },
+    {
+      "name": "45/49 Yrs Age Group",
+      "age_min": 45,
+      "age_max": 49,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "Martinus Marx",
+            "age": 47,
+            "gender": "M"
+          },
+          "club": {
+            "code": "CRWS",
+            "name": "Crawley SC"
+          },
+          "time": "00:02:01.04"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "Carl Shaw",
+            "age": 46,
+            "gender": "M"
+          },
+          "club": {
+            "code": "LEAA",
+            "name": "Nottingham Leander SC"
+          },
+          "time": "00:02:01.23"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "swimmer": {
+            "name": "Martin Bennell",
+            "age": 49,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BBFS",
+            "name": "Basingstoke Bluefins SC"
+          },
+          "time": "00:02:01.82"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "swimmer": {
+            "name": "James Cotton",
+            "age": 45,
+            "gender": "M"
+          },
+          "club": {
+            "code": "SPAL",
+            "name": "Barnes SC"
+          },
+          "time": "00:02:07.56"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "swimmer": {
+            "name": "Michael Rimmington",
+            "age": 46,
+            "gender": "M"
+          },
+          "club": {
+            "code": "WMSN",
+            "name": "Warrington Masters Swimming Club"
+          },
+          "time": "00:02:07.68"
+        },
+        {
+          "order": 6,
+          "place": 6,
+          "swimmer": {
+            "name": "Liam Sullivan",
+            "age": 45,
+            "gender": "M"
+          },
+          "club": {
+            "code": "CAMT",
+            "name": "City of Cambridge SC"
+          },
+          "time": "00:02:14.09"
+        },
+        {
+          "order": 7,
+          "place": 7,
+          "swimmer": {
+            "name": "Andrew Wheeler",
+            "age": 49,
+            "gender": "M"
+          },
+          "club": {
+            "code": "NSCX",
+            "name": "Silver City Blues ASC"
+          },
+          "time": "00:02:14.53"
+        },
+        {
+          "order": 8,
+          "place": 8,
+          "swimmer": {
+            "name": "Jon-Paul Hemmings",
+            "age": 47,
+            "gender": "M"
+          },
+          "club": {
+            "code": "VULA",
+            "name": "Lincoln Vulcans SC"
+          },
+          "time": "00:02:16.57"
+        },
+        {
+          "order": 9,
+          "place": 9,
+          "swimmer": {
+            "name": "Jason Mellors",
+            "age": 47,
+            "gender": "M"
+          },
+          "club": {
+            "code": "SAMT",
+            "name": "St Albans Masters SC"
+          },
+          "time": "00:02:20.80"
+        },
+        {
+          "order": 10,
+          "place": 10,
+          "swimmer": {
+            "name": "Martin Temple",
+            "age": 49,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BOKE",
+            "name": "Borough of Kirklees SC"
+          },
+          "time": "00:02:21.30"
+        },
+        {
+          "order": 11,
+          "place": 11,
+          "swimmer": {
+            "name": "Darren Jones",
+            "age": 49,
+            "gender": "M"
+          },
+          "club": {
+            "code": "HOYN",
+            "name": "Hoylake SC"
+          },
+          "time": "00:02:22.96"
+        },
+        {
+          "order": 12,
+          "place": 12,
+          "swimmer": {
+            "name": "Gavin White",
+            "age": 48,
+            "gender": "M"
+          },
+          "club": {
+            "code": "CAMT",
+            "name": "City of Cambridge SC"
+          },
+          "time": "00:02:23.58"
+        },
+        {
+          "order": 13,
+          "place": 13,
+          "swimmer": {
+            "name": "Robert Nunn",
+            "age": 47,
+            "gender": "M"
+          },
+          "club": {
+            "code": "DEBT",
+            "name": "Deben SC"
+          },
+          "time": "00:02:24.00"
+        },
+        {
+          "order": 14,
+          "place": 14,
+          "swimmer": {
+            "name": "Daniel Sutton",
+            "age": 47,
+            "gender": "M"
+          },
+          "club": {
+            "code": "LANN",
+            "name": "Lancaster City SC"
+          },
+          "time": "00:02:24.59"
+        },
+        {
+          "order": 15,
+          "place": 15,
+          "swimmer": {
+            "name": "John Gardiner",
+            "age": 46,
+            "gender": "M"
+          },
+          "club": {
+            "code": "KAGS",
+            "name": "Kidlington & Gosford SC"
+          },
+          "time": "00:02:24.67"
+        },
+        {
+          "order": 16,
+          "place": 16,
+          "swimmer": {
+            "name": "Matt Burgham",
+            "age": 46,
+            "gender": "M"
+          },
+          "club": {
+            "code": "HSMS",
+            "name": "Haslemere Swimming Club"
+          },
+          "time": "00:02:27.83"
+        },
+        {
+          "order": 17,
+          "place": 17,
+          "swimmer": {
+            "name": "Michael Carse",
+            "age": 47,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BANL",
+            "name": "Barnet Copthall SC"
+          },
+          "time": "00:02:32.89"
+        }
+      ]
+    },
+    {
+      "name": "50/54 Yrs Age Group",
+      "age_min": 50,
+      "age_max": 54,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "Marcus Smallbone",
+            "age": 54,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TOTW",
+            "name": "Totnes SC"
+          },
+          "time": "00:02:04.52"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "Robert Wood",
+            "age": 54,
+            "gender": "M"
+          },
+          "club": {
+            "code": "DDME",
+            "name": "Darlington Dolphin Masters SC"
+          },
+          "time": "00:02:06.52"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "swimmer": {
+            "name": "Bryn Hughes",
+            "age": 51,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BBFS",
+            "name": "Basingstoke Bluefins SC"
+          },
+          "time": "00:02:12.68"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "swimmer": {
+            "name": "Alex Bevis",
+            "age": 51,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TANT",
+            "name": "Team Anglia Masters Swimming Clu"
+          },
+          "time": "00:02:15.56"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "swimmer": {
+            "name": "Steven Paine",
+            "age": 51,
+            "gender": "M"
+          },
+          "club": {
+            "code": "LEAA",
+            "name": "Nottingham Leander SC"
+          },
+          "time": "00:02:16.18"
+        },
+        {
+          "order": 6,
+          "place": 6,
+          "swimmer": {
+            "name": "Adam Acland",
+            "age": 50,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TEDL",
+            "name": "Teddington SC"
+          },
+          "time": "00:02:16.19"
+        },
+        {
+          "order": 7,
+          "place": 7,
+          "swimmer": {
+            "name": "Andrew Squires",
+            "age": 54,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TANT",
+            "name": "Team Anglia Masters Swimming Clu"
+          },
+          "time": "00:02:18.55"
+        },
+        {
+          "order": 8,
+          "place": 8,
+          "swimmer": {
+            "name": "Gary Bennell",
+            "age": 52,
+            "gender": "M"
+          },
+          "club": {
+            "code": "KAGS",
+            "name": "Kidlington & Gosford SC"
+          },
+          "time": "00:02:18.93"
+        },
+        {
+          "order": 9,
+          "place": 9,
+          "swimmer": {
+            "name": "Alastair Hughes",
+            "age": 50,
+            "gender": "M"
+          },
+          "club": {
+            "code": "HARE",
+            "name": "Harrogate District SC"
+          },
+          "time": "00:02:19.07"
+        },
+        {
+          "order": 10,
+          "place": 10,
+          "swimmer": {
+            "name": "Chris Barlow",
+            "age": 51,
+            "gender": "M"
+          },
+          "club": {
+            "code": "ETEA",
+            "name": "Etwall Eagles SC"
+          },
+          "time": "00:02:21.84"
+        },
+        {
+          "order": 11,
+          "place": 11,
+          "swimmer": {
+            "name": "Stuart Gibbs",
+            "age": 53,
+            "gender": "M"
+          },
+          "club": {
+            "code": "SWAW",
+            "name": "Swindon ASC"
+          },
+          "time": "00:02:21.88"
+        },
+        {
+          "order": 12,
+          "place": 12,
+          "swimmer": {
+            "name": "Bradley Murphy",
+            "age": 52,
+            "gender": "M"
+          },
+          "club": {
+            "code": "WILN",
+            "name": "Wilmslow & District ASC"
+          },
+          "time": "00:02:24.78"
+        },
+        {
+          "order": 13,
+          "place": 13,
+          "swimmer": {
+            "name": "Matt James",
+            "age": 51,
+            "gender": "M"
+          },
+          "club": {
+            "code": "HOYN",
+            "name": "Hoylake SC"
+          },
+          "time": "00:02:26.59"
+        },
+        {
+          "order": 14,
+          "place": 14,
+          "swimmer": {
+            "name": "Ferry Jacob",
+            "age": 51,
+            "gender": "M"
+          },
+          "club": {
+            "code": "SPAL",
+            "name": "Barnes SC"
+          },
+          "time": "00:02:36.15"
+        },
+        {
+          "order": 15,
+          "place": 15,
+          "swimmer": {
+            "name": "Craig Bransby",
+            "age": 52,
+            "gender": "M"
+          },
+          "club": {
+            "code": "POTT",
+            "name": "Potters Bar SC"
+          },
+          "time": "00:02:36.91"
+        },
+        {
+          "order": 16,
+          "place": 16,
+          "swimmer": {
+            "name": "Ian Mackay",
+            "age": 50,
+            "gender": "M"
+          },
+          "club": {
+            "code": "MANN",
+            "name": "City of Manchester Aquatics"
+          },
+          "time": "00:02:37.14"
+        },
+        {
+          "order": 17,
+          "place": -1,
+          "swimmer": {
+            "name": "Dave Willetts",
+            "age": 50,
+            "gender": "M"
+          },
+          "club": {
+            "code": "WINS",
+            "name": "Windsor SC"
+          },
+          "time": "NT"
+        },
+        {
+          "order": 18,
+          "place": -1,
+          "swimmer": {
+            "name": "Mark Wallace",
+            "age": 51,
+            "gender": "M"
+          },
+          "club": {
+            "code": "MATA",
+            "name": "Matlock & District SC"
+          },
+          "time": "NT"
+        }
+      ]
+    },
+    {
+      "name": "55/59 Yrs Age Group",
+      "age_min": 55,
+      "age_max": 59,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "Spencer Turner",
+            "age": 57,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BBFS",
+            "name": "Basingstoke Bluefins SC"
+          },
+          "time": "00:02:05.24"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "Peter Dixon",
+            "age": 58,
+            "gender": "M"
+          },
+          "club": {
+            "code": "NUEL",
+            "name": "Newham & University of East Lond"
+          },
+          "time": "00:02:09.33"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "swimmer": {
+            "name": "Patrick Gore",
+            "age": 58,
+            "gender": "M"
+          },
+          "club": {
+            "code": "REAS",
+            "name": "Reading SC"
+          },
+          "time": "00:02:12.06"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "swimmer": {
+            "name": "Gregory Whyte",
+            "age": 59,
+            "gender": "M"
+          },
+          "club": {
+            "code": "WYCS",
+            "name": "Wycombe District SC"
+          },
+          "time": "00:02:14.95"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "swimmer": {
+            "name": "Sean McQuaid",
+            "age": 58,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BANL",
+            "name": "Barnet Copthall SC"
+          },
+          "time": "00:02:16.89"
+        },
+        {
+          "order": 6,
+          "place": 6,
+          "swimmer": {
+            "name": "Kyran Parker",
+            "age": 56,
+            "gender": "M"
+          },
+          "club": {
+            "code": "HARE",
+            "name": "Harrogate District SC"
+          },
+          "time": "00:02:17.35"
+        },
+        {
+          "order": 7,
+          "place": 7,
+          "swimmer": {
+            "name": "Robert Davis",
+            "age": 56,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TANT",
+            "name": "Team Anglia Masters Swimming Clu"
+          },
+          "time": "00:02:20.21"
+        },
+        {
+          "order": 8,
+          "place": 8,
+          "swimmer": {
+            "name": "Karl Sharman",
+            "age": 57,
+            "gender": "M"
+          },
+          "club": {
+            "code": "DEBT",
+            "name": "Deben SC"
+          },
+          "time": "00:02:24.82"
+        },
+        {
+          "order": 9,
+          "place": 9,
+          "swimmer": {
+            "name": "Pete Russell",
+            "age": 58,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TANT",
+            "name": "Team Anglia Masters Swimming Clu"
+          },
+          "time": "00:02:32.85"
+        },
+        {
+          "order": 10,
+          "place": 10,
+          "swimmer": {
+            "name": "Gary Holmes",
+            "age": 56,
+            "gender": "M"
+          },
+          "club": {
+            "code": "SBMT",
+            "name": "South Beds Masters Swimming Club"
+          },
+          "time": "00:02:34.93"
+        },
+        {
+          "order": 11,
+          "place": -1,
+          "swimmer": {
+            "name": "Ian Wallace",
+            "age": 56,
+            "gender": "M"
+          },
+          "club": {
+            "code": "NUEL",
+            "name": "Newham & University of East Lond"
+          },
+          "time": "NT"
+        }
+      ]
+    },
+    {
+      "name": "60/64 Yrs Age Group",
+      "age_min": 60,
+      "age_max": 64,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "Simon Griffiths",
+            "age": 60,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TEDL",
+            "name": "Teddington SC"
+          },
+          "time": "00:02:15.97"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "Sean Kinsey",
+            "age": 62,
+            "gender": "M"
+          },
+          "club": {
+            "code": "GLMW",
+            "name": "Gloucester Masters SC"
+          },
+          "time": "00:02:16.75"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "swimmer": {
+            "name": "Martin Foster",
+            "age": 60,
+            "gender": "M"
+          },
+          "club": {
+            "code": "CRWS",
+            "name": "Crawley SC"
+          },
+          "time": "00:02:18.54"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "swimmer": {
+            "name": "Andrew Carr",
+            "age": 60,
+            "gender": "M"
+          },
+          "club": {
+            "code": "ELEE",
+            "name": "East Leeds SC"
+          },
+          "time": "00:02:18.79"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "swimmer": {
+            "name": "Alec Johnson",
+            "age": 64,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TMBN",
+            "name": "Trafford Metro Bor SC"
+          },
+          "time": "00:02:20.44"
+        },
+        {
+          "order": 6,
+          "place": 6,
+          "swimmer": {
+            "name": "Richard Pavitt",
+            "age": 64,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BRKS",
+            "name": "Bracknell & Wokingham SC"
+          },
+          "time": "00:02:23.74"
+        },
+        {
+          "order": 7,
+          "place": 7,
+          "swimmer": {
+            "name": "Matthew Grant",
+            "age": 62,
+            "gender": "M"
+          },
+          "club": {
+            "code": "DAGE",
+            "name": "Derwentside & Gateshead Swim Tea"
+          },
+          "time": "00:02:26.70"
+        },
+        {
+          "order": 8,
+          "place": 8,
+          "swimmer": {
+            "name": "Dale Barker",
+            "age": 64,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TANT",
+            "name": "Team Anglia Masters Swimming Clu"
+          },
+          "time": "00:02:28.26"
+        },
+        {
+          "order": 9,
+          "place": 9,
+          "swimmer": {
+            "name": "Andrew Hooper",
+            "age": 63,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TEDL",
+            "name": "Teddington SC"
+          },
+          "time": "00:02:29.63"
+        },
+        {
+          "order": 10,
+          "place": 10,
+          "swimmer": {
+            "name": "David Clarke",
+            "age": 62,
+            "gender": "M"
+          },
+          "club": {
+            "code": "WCOM",
+            "name": "Wrekin SC"
+          },
+          "time": "00:02:32.06"
+        },
+        {
+          "order": 11,
+          "place": 11,
+          "swimmer": {
+            "name": "Colin Robbins",
+            "age": 62,
+            "gender": "M"
+          },
+          "club": {
+            "code": "LEAA",
+            "name": "Nottingham Leander SC"
+          },
+          "time": "00:02:37.11"
+        },
+        {
+          "order": 12,
+          "place": 12,
+          "swimmer": {
+            "name": "Adam Lelean",
+            "age": 64,
+            "gender": "M"
+          },
+          "club": {
+            "code": "DOTT",
+            "name": "Diss Otters SC"
+          },
+          "time": "00:02:40.21"
+        },
+        {
+          "order": 13,
+          "place": 13,
+          "swimmer": {
+            "name": "John Brierley",
+            "age": 63,
+            "gender": "M"
+          },
+          "club": {
+            "code": "DEBT",
+            "name": "Deben SC"
+          },
+          "time": "00:02:41.07"
+        }
+      ]
+    },
+    {
+      "name": "65/69 Yrs Age Group",
+      "age_min": 65,
+      "age_max": 69,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "Rob Arnold",
+            "age": 66,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TMBN",
+            "name": "Trafford Metro Bor SC"
+          },
+          "time": "00:02:22.65"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "David Wright",
+            "age": 65,
+            "gender": "M"
+          },
+          "club": {
+            "code": "LUTT",
+            "name": "Team Luton Swimming"
+          },
+          "time": "00:02:32.55"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "swimmer": {
+            "name": "Mark Strakosch",
+            "age": 65,
+            "gender": "M"
+          },
+          "club": {
+            "code": "HEMT",
+            "name": "Hemel Hempstead SC"
+          },
+          "time": "00:02:34.31"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "swimmer": {
+            "name": "Ian Powell",
+            "age": 67,
+            "gender": "M"
+          },
+          "club": {
+            "code": "INDY",
+            "name": "Nofio Cymru"
+          },
+          "time": "00:02:43.64"
+        }
+      ]
+    },
+    {
+      "name": "70/74 Yrs Age Group",
+      "age_min": 70,
+      "age_max": 74,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "Simon Veale",
+            "age": 70,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TOTW",
+            "name": "Totnes SC"
+          },
+          "time": "00:02:29.07"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "Peter Seward",
+            "age": 70,
+            "gender": "M"
+          },
+          "club": {
+            "code": "MARW",
+            "name": "Marlborough Penguins ASC"
+          },
+          "time": "00:02:41.70"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "swimmer": {
+            "name": "Luis Martinez Del Pozo",
+            "age": 70,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:02:47.51"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "swimmer": {
+            "name": "Neil Weatherburn",
+            "age": 71,
+            "gender": "M"
+          },
+          "club": {
+            "code": "TEDL",
+            "name": "Teddington SC"
+          },
+          "time": "00:02:48.59"
+        },
+        {
+          "order": 5,
+          "place": 5,
+          "swimmer": {
+            "name": "Peter Rae",
+            "age": 73,
+            "gender": "M"
+          },
+          "club": {
+            "code": "ROCT",
+            "name": "Rochford & District SC"
+          },
+          "time": "00:03:05.00"
+        }
+      ]
+    },
+    {
+      "name": "75/79 Yrs Age Group",
+      "age_min": 75,
+      "age_max": 79,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "David Hills",
+            "age": 75,
+            "gender": "M"
+          },
+          "club": {
+            "code": "SUNE",
+            "name": "City of Sunderland ASC"
+          },
+          "time": "00:02:52.77"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "Terence Mansi",
+            "age": 77,
+            "gender": "M"
+          },
+          "club": {
+            "code": "HADT",
+            "name": "Hadleigh and Sudbury Swimming Cl"
+          },
+          "time": "00:03:26.77"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "swimmer": {
+            "name": "Christopher Preston",
+            "age": 75,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OUTL",
+            "name": "Out To Swim"
+          },
+          "time": "00:03:46.73"
+        }
+      ]
+    },
+    {
+      "name": "80/84 Yrs Age Group",
+      "age_min": 80,
+      "age_max": 84,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "Bill Redfern",
+            "age": 80,
+            "gender": "M"
+          },
+          "club": {
+            "code": "COCN",
+            "name": "City of Chester Swimming Club"
+          },
+          "time": "00:03:21.67"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "Tony Cherrington",
+            "age": 84,
+            "gender": "M"
+          },
+          "club": {
+            "code": "GLMW",
+            "name": "Gloucester Masters SC"
+          },
+          "time": "00:03:33.43"
+        }
+      ]
+    },
+    {
+      "name": "85/89 Yrs Age Group",
+      "age_min": 85,
+      "age_max": 89,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "swimmer": {
+            "name": "Roger Lloyd-Mostyn",
+            "age": 85,
+            "gender": "M"
+          },
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:03:30.69"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "swimmer": {
+            "name": "Michael Read",
+            "age": 85,
+            "gender": "M"
+          },
+          "club": {
+            "code": "BRIS",
+            "name": "City of Brighton and Hove"
+          },
+          "time": "00:04:02.02"
+        }
+      ]
+    }
+  ]
+}

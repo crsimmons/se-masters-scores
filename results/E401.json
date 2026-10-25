@@ -1,0 +1,841 @@
+{
+  "status": "complete",
+  "meet": {
+    "name": "Swim England Masters 2026",
+    "city": "Sheffield",
+    "date": "2026-10-24",
+    "course": "SCM"
+  },
+  "event": {
+    "id": 401,
+    "number": 401,
+    "name": "Mixed 4x200m Freestyle Team",
+    "distance_m": 200,
+    "stroke": "FREE"
+  },
+  "age_groups": [
+    {
+      "name": "072+ Yrs Age Group",
+      "age_min": 72,
+      "age_max": 99,
+      "gender": "X",
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Birmingham M",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Alexander Sharman",
+              "age": 24,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Katie Walker-Stabeler",
+              "age": 37,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Megan Berridge",
+              "age": 30,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Liam Herbert",
+              "age": 33,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "BIRM",
+            "name": "Birmingham Masters"
+          },
+          "time": "00:08:49.67"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "Putteridge",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Ollie O'Connor",
+              "age": 18,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Isabella Porzio",
+              "age": 22,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Sophie Payne",
+              "age": 24,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Adam Hazlewood",
+              "age": 22,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "PRCT",
+            "name": "Putteridge Swimming Club"
+          },
+          "time": "00:08:49.73"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "team_name": "East Leeds",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Samuel Naylor",
+              "age": 26,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "George Russell",
+              "age": 29,
+              "gender": "M"
+            },
+            {
+              "leg": 3,
+              "name": "Erin Anderson",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Scarlett Strathie",
+              "age": 21,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "ELEE",
+            "name": "East Leeds SC"
+          },
+          "time": "00:08:50.26"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "team_name": "Derby Excel",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Samuel Hurst",
+              "age": 23,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Rebecca Mills",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Andrew Kerr",
+              "age": 25,
+              "gender": "M"
+            },
+            {
+              "leg": 4,
+              "name": "Matilda McGrath",
+              "age": 19,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "DEXA",
+            "name": "Derby Excel Swimming Club"
+          },
+          "time": "00:09:18.73"
+        }
+      ]
+    },
+    {
+      "name": "100+ Yrs Age Group",
+      "age_min": 100,
+      "age_max": 119,
+      "gender": "X",
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Otter",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Douglas Willetts",
+              "age": 30,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Suzanne Lewis",
+              "age": 29,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Ibby Szenes",
+              "age": 26,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Dylan Fairclough",
+              "age": 26,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:09:03.93"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "Hackney Ana",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Lewis Perry",
+              "age": 28,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Alexander Morris",
+              "age": 27,
+              "gender": "M"
+            },
+            {
+              "leg": 3,
+              "name": "Ana-Maria Molnar",
+              "age": 28,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Georgia Hinds",
+              "age": 27,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "HAGL",
+            "name": "Hackney Anaconda"
+          },
+          "time": "00:09:16.10"
+        }
+      ]
+    },
+    {
+      "name": "120+ Yrs Age Group",
+      "age_min": 120,
+      "age_max": 159,
+      "gender": "X",
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Preston",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Dean Heaps",
+              "age": 34,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Michael Peacock",
+              "age": 39,
+              "gender": "M"
+            },
+            {
+              "leg": 3,
+              "name": "Emma Jones",
+              "age": 39,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Dani Wallwork",
+              "age": 46,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "PRNN",
+            "name": "Preston Swimming Club"
+          },
+          "time": "00:09:03.67"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "Bo Newham",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Peter Dixon",
+              "age": 58,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Yigit Guven",
+              "age": 39,
+              "gender": "M"
+            },
+            {
+              "leg": 3,
+              "name": "Ella Holmes",
+              "age": 27,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Alexandra Heard",
+              "age": 26,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "NUEL",
+            "name": "Newham & University of East Lond"
+          },
+          "time": "00:09:04.06"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "team_name": "G B Police",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Daniel Thomas",
+              "age": 29,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Grace Cordeaux",
+              "age": 30,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Kelly Clarke",
+              "age": 54,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Nigel Gaskin",
+              "age": 49,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "GBPE",
+            "name": "Great Britain Police"
+          },
+          "time": "00:09:24.77"
+        },
+        {
+          "order": 4,
+          "place": 4,
+          "team_name": "Boldon",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Benjamin Herring",
+              "age": 34,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Hannah Robson",
+              "age": 35,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Bethany-Star Cooper",
+              "age": 26,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Anthony Simpson",
+              "age": 33,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "BOLE",
+            "name": "Boldon C.A. Swim Club"
+          },
+          "time": "00:09:31.49"
+        },
+        {
+          "order": 5,
+          "place": -1,
+          "team_name": "Co Cambridge",
+          "swimmers": [],
+          "club": {
+            "code": "CAMT",
+            "name": "City of Cambridge SC"
+          },
+          "time": "NT"
+        }
+      ]
+    },
+    {
+      "name": "160+ Yrs Age Group",
+      "age_min": 160,
+      "age_max": 199,
+      "gender": "X",
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Woking",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Mark Tuddenham",
+              "age": 29,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Michelle Ware",
+              "age": 53,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Georgina Heyn",
+              "age": 42,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Alexander Smith",
+              "age": 36,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "WOKS",
+            "name": "Woking SC"
+          },
+          "time": "00:08:22.99"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "NottmLeander",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Haseley Gordon",
+              "age": 45,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Kirsty Addy",
+              "age": 34,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Robert Steel",
+              "age": 69,
+              "gender": "M"
+            },
+            {
+              "leg": 4,
+              "name": "Darcy Deakin",
+              "age": 27,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "LEAA",
+            "name": "Nottingham Leander SC"
+          },
+          "time": "00:10:06.32"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "team_name": "Derby Excel",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Justin Palfrey",
+              "age": 55,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Eleanor Grimes",
+              "age": 40,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Fran Allmark-Palmer",
+              "age": 38,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Joseph Doherty",
+              "age": 28,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "DEXA",
+            "name": "Derby Excel Swimming Club"
+          },
+          "time": "00:10:49.66"
+        },
+        {
+          "order": 4,
+          "place": -1,
+          "team_name": "Hetton",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Russell Hynes",
+              "age": 45,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Georgina Fuller",
+              "age": 53,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Luke Dodd",
+              "age": 24,
+              "gender": "M"
+            },
+            {
+              "leg": 4,
+              "name": "David Humes",
+              "age": 43,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "HETE",
+            "name": "Hetton SC"
+          },
+          "time": "NT"
+        }
+      ]
+    },
+    {
+      "name": "200+ Yrs Age Group",
+      "age_min": 200,
+      "age_max": 239,
+      "gender": "X",
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Basingstoke",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Spencer Turner",
+              "age": 57,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Fleur Turner",
+              "age": 50,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Lizzie Coster",
+              "age": 47,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Martin Bennell",
+              "age": 49,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "BBFS",
+            "name": "Basingstoke Bluefins SC"
+          },
+          "time": "00:08:34.54"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "Gloucester M",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Micaela Morris",
+              "age": 65,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Robert Rudge",
+              "age": 43,
+              "gender": "M"
+            },
+            {
+              "leg": 3,
+              "name": "Nia Skinner",
+              "age": 33,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Sean Kinsey",
+              "age": 62,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "GLMW",
+            "name": "Gloucester Masters SC"
+          },
+          "time": "00:09:39.63"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "team_name": "Barnes SC",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Ferry Jacob",
+              "age": 51,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Bridget Trefgarne",
+              "age": 60,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Laini Harris",
+              "age": 44,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "James Cotton",
+              "age": 45,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "SPAL",
+            "name": "Barnes SC"
+          },
+          "time": "00:09:41.90"
+        },
+        {
+          "order": 4,
+          "place": -1,
+          "team_name": "Nofio Cymru",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Richard Drew",
+              "age": 60,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Emma Chaplin",
+              "age": 55,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Natasha Morgan",
+              "age": 44,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Ian Powell",
+              "age": 67,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "INDY",
+            "name": "Nofio Cymru"
+          },
+          "time": "NT"
+        }
+      ]
+    },
+    {
+      "name": "240+ Yrs Age Group",
+      "age_min": 240,
+      "age_max": 279,
+      "gender": "X",
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Teddington",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Harriet Wharton",
+              "age": 42,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Neil Weatherburn",
+              "age": 71,
+              "gender": "M"
+            },
+            {
+              "leg": 3,
+              "name": "Michele Crowley",
+              "age": 65,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Andrew Hooper",
+              "age": 63,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "TEDL",
+            "name": "Teddington SC"
+          },
+          "time": "00:11:10.48"
+        }
+      ]
+    },
+    {
+      "name": "280+ Yrs Age Group",
+      "age_min": 280,
+      "age_max": 319,
+      "gender": "X",
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Birmingham M",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Trevor Clark",
+              "age": 72,
+              "gender": "M"
+            },
+            {
+              "leg": 2,
+              "name": "Anne Bourne",
+              "age": 72,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Judy Wilson",
+              "age": 82,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Stephen Langford",
+              "age": 57,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "BIRM",
+            "name": "Birmingham Masters"
+          },
+          "time": "00:12:07.83"
+        },
+        {
+          "order": 2,
+          "place": -1,
+          "team_name": "Rochford",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Heidi Nevin",
+              "age": 58,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Eileen Luther",
+              "age": 68,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Philip Harper",
+              "age": 81,
+              "gender": "M"
+            },
+            {
+              "leg": 4,
+              "name": "Peter Rae",
+              "age": 73,
+              "gender": "M"
+            }
+          ],
+          "club": {
+            "code": "ROCT",
+            "name": "Rochford & District SC"
+          },
+          "time": "NT"
+        }
+      ]
+    }
+  ]
+}
