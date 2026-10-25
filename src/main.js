@@ -119,7 +119,7 @@ function setGender(next) {
     $(`by-${category}`).setAttribute('aria-pressed', String(gender === category));
   }
   $('gender-note').hidden = gender === 'combined';
-  updateCheckpoint(currentNumber);
+  updateCheckpoint(mode === 'event' ? undefined : currentNumber);
   teamList(); render();
 }
 $('by-combined').onclick = () => setGender('combined');
