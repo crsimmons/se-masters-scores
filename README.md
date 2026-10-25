@@ -33,6 +33,12 @@ Connected directly to GitHub repository `crsimmons/se-masters-scores`:
 - Root directory: repository root
 - Preview deployments: all other branches
 
-Push changes to GitHub to deploy. Cleaned event results must be committed so Cloudflare can recalculate scores at build time.
+Automatic deployments are enabled in Cloudflare, but GitHub pushes did not trigger builds during initial setup. Check that the Cloudflare Pages GitHub app has access to this repository at https://github.com/settings/installations. The site was deployed successfully by triggering a build from the GitHub branch:
+
+```sh
+cloudflare pages deployments create se-masters-scores --branch main
+```
+
+Once GitHub app access/webhooks are working, pushes to `main` should deploy automatically. Cleaned event results must be committed so Cloudflare can recalculate scores at build time.
 
 Only `dist/` is served. Raw result files and Python/build scripts remain in the repository, not the website. The browser bundle contains only derived event names and club score snapshots needed for the graph. Those displayed scores are public, not secret. Source maps are disabled.
