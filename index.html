@@ -3,24 +3,24 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#123c70">
+<script>try{const saved=localStorage.getItem('theme');if(saved==='dark'||(!saved&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.dataset.theme='dark'}catch{}</script>
 <meta name="description" content="Explore cumulative club scores at the Swim England Masters 2026. Compare teams after every event or session.">
 <title>Masters 2026 · Club score tracker</title>
 </head>
 <body>
-<header><a href="./" class="brand" aria-label="Masters 2026 home"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 12h28M4 20h28M4 28h28M32 8v24" /></svg><span>Masters <b>2026</b></span></a><span class="venue">Sheffield <span>25m pool</span></span></header>
+<header><a href="./" class="brand" aria-label="Masters 2026 home"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 12h28M4 20h28M4 28h28M32 8v24" /></svg><span>Masters <b>2026</b></span></a><div class="header-actions"><button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">Dark mode</button><span class="venue">Sheffield <span>25m pool</span></span></div></header>
 <main>
-<section class="intro"><div><h1>The club race.</h1><p>Swim England Masters 2026<br>Follow the points, from the first event to the final touch.</p></div><div class="meet-count" id="meet-count"></div></section>
+<section class="intro"><div class="intro-title"><h1>Swim England Masters National Championships 2026</h1></div><div class="meet-count" id="meet-count"></div></section>
 <section class="scoreboard" aria-label="Club score explorer">
 <div class="plot-panel">
-<div class="plot-heading"><div><h2>Cumulative points</h2><p id="chart-subtitle">After each completed event</p></div><div class="segmented" aria-label="Group scores by"><button id="by-event" aria-pressed="true">Event</button><button id="by-session" aria-pressed="false">Session</button></div></div>
+<div class="plot-heading"><h2>Cumulative points</h2><div class="segmented" aria-label="Group scores by"><button id="by-event" aria-pressed="true">Event</button><button id="by-session" aria-pressed="false">Session</button></div></div>
 <div id="chart" role="img" aria-label="Cumulative points chart for selected teams. Use the checkpoint selector and standings table below for exact scores."></div>
-<p class="chart-help">Hover or tap to compare scores. Drag the navigator to zoom.</p>
 <div class="checkpoint"><label for="checkpoint">Standings after</label><select id="checkpoint"></select></div>
 <p id="checkpoint-detail" class="checkpoint-detail"></p>
-<div class="table-wrap"><table><caption class="sr-only">Selected teams at the chosen checkpoint</caption><thead><tr><th scope="col">Place</th><th scope="col">Club</th><th scope="col">Points</th><th scope="col">Gained</th></tr></thead><tbody id="standings"></tbody></table><p id="empty" hidden>Select a team to start comparing scores.</p></div>
+<div class="table-wrap"><table><caption class="sr-only">Selected teams at the chosen checkpoint</caption><thead><tr><th scope="col">Place</th><th scope="col">Club</th><th scope="col">Points</th><th scope="col">Gained</th></tr></thead><tbody id="standings"></tbody></table><p id="empty" hidden>No teams selected.</p></div>
 </div>
-<aside aria-label="Choose teams"><div class="teams-heading"><h2>Choose your teams</h2><span id="selection-count"></span></div><p>Compare the leaders or find your club.</p><label class="sr-only" for="search">Search teams</label><input id="search" type="search" placeholder="Search club or code…" autocomplete="off"><div class="team-actions"><button id="top">Top 8</button><button id="all">All teams</button><button id="clear">Clear</button></div><div id="teams"></div><p id="no-results" hidden>No matching clubs. Try another name or code.</p></aside>
+<aside aria-label="Choose teams"><div class="teams-heading"><h2>Teams</h2><span id="selection-count"></span></div><label class="sr-only" for="search">Search teams</label><input id="search" type="search" placeholder="Search club or code…" autocomplete="off"><div class="team-actions"><button id="top">Top 8</button><button id="all">All teams</button><button id="clear">Clear</button></div><div id="teams"></div><p id="no-results" hidden>No matching clubs.</p></aside>
 </section>
-<footer><p>Calculated standings, not official results. Points per age group: 1st 7, 2nd 5, 3rd 4, 4th 3, 5th 2, 6th 1.</p><p>Sessions follow the event-number hundreds. Only completed events are included.</p></footer>
+<footer><p>Unofficial standings. Points per age group, 1st–6th: 7, 5, 4, 3, 2, 1.</p><p>Created by Colin Simmons · <a href="https://github.com/crsimmons/se-masters-scores" target="_blank" rel="noreferrer">source</a></p></footer>
 </main><script type="module" src="/src/main.js"></script>
 </body></html>

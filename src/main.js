@@ -16,7 +16,8 @@ let mode = 'event', index = checkpoints.length - 1;
 const chart = echarts.init($('chart'));
 const points = () => mode === 'event' ? checkpoints : sessions;
 const label = p => mode === 'event' ? `Event ${p.number}` : `Session ${p.session}`;
-$('meet-count').innerHTML = `<strong>${checkpoints.length}</strong><span>completed events<br>across ${sessions.length} sessions</span>`;
+$('meet-count').innerHTML = `<div class="meet-totals"><div class="meet-stat"><strong>${checkpoints.length}</strong><span>events</span></div><div class="meet-stat"><strong>${sessions.length}</strong><span>sessions</span></div></div><p id="results-through"></p>`;
+$('results-through').textContent = `Results through event ${checkpoints.at(-1).number}`;
 function teamList() {
   const query = $('search').value.toLowerCase().trim();
   $('teams').replaceChildren();
@@ -55,14 +56,19 @@ function table() {
 function render() {
   const list = points();
   $('selection-count').textContent = `${selected.size} / ${teams.length}`;
+  const dark = document.documentElement.dataset.theme === 'dark';
+  const chartMuted = dark ? '#a6bfce' : '#527085';
+  const chartBorder = dark ? '#426176' : '#c4d6e4';
+  const chartGrid = dark ? '#294557' : '#e2ecf3';
+  const chartSurface = dark ? '#142a3b' : '#ffffff';
   chart.setOption({
     animation: !matchMedia('(prefers-reduced-motion: reduce)').matches,
-    textStyle: { fontFamily: 'Arial, sans-serif' },
+    textStyle: { fontFamily: 'Arial, sans-serif', color: chartMuted },
     grid: { left: 48, right: 24, top: 28, bottom: 83 },
-    tooltip: { trigger: 'axis', confine: true, order: 'valueDesc', extraCssText: 'max-height:280px;overflow-y:auto;', appendToBody: false },
-    xAxis: { type: 'category', boundaryGap: false, data: list.map(label), axisLine: { lineStyle: { color: '#c4d6e4' } }, axisTick: { show:false }, axisLabel: { color:'#527085', formatter: v => v.replace('Event ', '').replace('Session ', 'S') } },
-    yAxis: { type:'value', min:0, axisLabel:{color:'#527085'}, splitLine:{lineStyle:{color:'#e2ecf3'}} },
-    dataZoom: [{ type:'slider', bottom: 8, height:24, borderColor:'#d4e2ec', fillerColor:'rgba(18,99,177,.12)', textStyle:{color:'#527085'} }, {type:'inside'}],
+    tooltip: { trigger: 'axis', confine: true, order: 'valueDesc', backgroundColor: chartSurface, borderColor: chartBorder, textStyle: { color: chartMuted }, extraCssText: 'max-height:280px;overflow-y:auto;', appendToBody: false },
+    xAxis: { type: 'category', boundaryGap: false, data: list.map(label), axisLine: { lineStyle: { color: chartBorder } }, axisTick: { show:false }, axisLabel: { color:chartMuted, formatter: v => v.replace('Event ', '').replace('Session ', 'S') } },
+    yAxis: { type:'value', min:0, axisLabel:{color:chartMuted}, splitLine:{lineStyle:{color:chartGrid}} },
+    dataZoom: [{ type:'slider', bottom: 8, height:24, borderColor:chartBorder, fillerColor: dark ? 'rgba(18,99,177,.24)' : 'rgba(18,99,177,.12)', textStyle:{color:chartMuted} }, {type:'inside'}],
     series: teams.filter(t => selected.has(t.code)).map(t => ({
       name:t.name, type:'line', data:list.map(p => p.scores[t.code] || 0),
       showSymbol: mode === 'session', symbolSize:6, lineStyle:{width:2.5}, itemStyle:{color:colors[t.code]}, emphasis:{focus:'series'}, smooth:false
@@ -74,10 +80,19 @@ function setMode(next) {
   mode = next;
   $('by-event').setAttribute('aria-pressed', mode === 'event');
   $('by-session').setAttribute('aria-pressed', mode === 'session');
-  $('chart-subtitle').textContent = mode === 'event' ? 'After each completed event' : 'At the end of each session';
   $('checkpoint').replaceChildren(...points().map(p => { const option = document.createElement('option'); option.textContent = label(p); return option; }));
   index = points().length - 1; $('checkpoint').selectedIndex = index; render();
 }
+function applyTheme(dark, save = false) {
+  document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+  $('theme-toggle').textContent = 'Dark mode';
+  $('theme-toggle').setAttribute('aria-pressed', String(dark));
+  if (save) {
+    try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch {}
+  }
+}
+$('theme-toggle').onclick = () => { applyTheme(document.documentElement.dataset.theme !== 'dark', true); render(); };
+applyTheme(document.documentElement.dataset.theme === 'dark');
 $('by-event').onclick = () => setMode('event');
 $('by-session').onclick = () => setMode('session');
 $('checkpoint').onchange = () => { index = $('checkpoint').selectedIndex; table(); };
