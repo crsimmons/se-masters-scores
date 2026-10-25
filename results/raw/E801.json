@@ -1,0 +1,3709 @@
+{
+  "+p_xml": "version=\"1.0\" encoding=\"iso-8859-1\"",
+  "LENEX": {
+    "+@version": "3.0",
+    "CONSTRUCTOR": {
+      "+@name": "SPORTSYS LLP Meet Organisation V6.0",
+      "+@registration": "Swim England",
+      "+@version": "6.0.190",
+      "CONTACT": {
+        "+@name": "SPORTSYSTEMS",
+        "+@street": "8 Sheaf Place",
+        "+@city": "Worksop",
+        "+@zip": "S81 7LE",
+        "+@country": "GB",
+        "+@phone": "+44 1909 481310",
+        "+@email": "sales@sportsys.co.uk",
+        "+@internet": "https://www.sportsys.co.uk"
+      }
+    },
+    "MEETS": {
+      "MEET": {
+        "+@name": "Swim England Masters 2026",
+        "+@name.en": "Swim England Masters 2026",
+        "+@city": "Sheffield",
+        "+@city.en": "Sheffield",
+        "+@nation": "",
+        "AGEDATE": {
+          "+@type": "DATE",
+          "+@value": "2026-12-31"
+        },
+        "SESSIONS": {
+          "SESSION": {
+            "+@number": "8",
+            "+@name": "Session 8",
+            "+@course": "SCM",
+            "+@date": "2026-10-25",
+            "+@daytime": "13:00",
+            "EVENTS": {
+              "EVENT": {
+                "+@eventid": "801",
+                "+@number": "801",
+                "+@preveventid": "-1",
+                "+@gender": "M",
+                "+@round": "TIM",
+                "+@order": "1",
+                "+@status": "OFFICIAL",
+                "SWIMSTYLE": {
+                  "+@distance": "200",
+                  "+@relaycount": "4",
+                  "+@stroke": "FREE",
+                  "+@name": "Open 4x200m Freestyle Team"
+                },
+                "HEATS": {
+                  "HEAT": [
+                    {
+                      "+@heatid": "8011",
+                      "+@number": "1"
+                    },
+                    {
+                      "+@heatid": "8012",
+                      "+@number": "2"
+                    }
+                  ]
+                },
+                "AGEGROUPS": {
+                  "AGEGROUP": [
+                    {
+                      "+@agegroupid": "1",
+                      "+@agemax": "99",
+                      "+@agemin": "72",
+                      "+@name": "072+ Yrs Age Group",
+                      "+@calculate": "TOTAL",
+                      "+@pointstype": "N",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "7869"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "7690"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "2",
+                      "+@agemax": "119",
+                      "+@agemin": "100",
+                      "+@name": "100+ Yrs Age Group",
+                      "+@calculate": "TOTAL",
+                      "+@pointstype": "N",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "7547"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "7373"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "3",
+                            "+@resultid": "7847"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "3",
+                      "+@agemax": "159",
+                      "+@agemin": "120",
+                      "+@name": "120+ Yrs Age Group",
+                      "+@calculate": "TOTAL",
+                      "+@pointstype": "N",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "7619"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "7718"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "4",
+                      "+@agemax": "199",
+                      "+@agemin": "160",
+                      "+@name": "160+ Yrs Age Group",
+                      "+@calculate": "TOTAL",
+                      "+@pointstype": "N",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "7689"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "7832"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "3",
+                            "+@resultid": "7788"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "5",
+                      "+@agemax": "239",
+                      "+@agemin": "200",
+                      "+@name": "200+ Yrs Age Group",
+                      "+@calculate": "TOTAL",
+                      "+@pointstype": "N",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "7467"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "7666"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "3",
+                            "+@resultid": "7967"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "6",
+                      "+@agemax": "279",
+                      "+@agemin": "240",
+                      "+@name": "240+ Yrs Age Group",
+                      "+@calculate": "TOTAL",
+                      "+@pointstype": "N",
+                      "RANKINGS": {
+                        "RANKING": [
+                          {
+                            "+@order": "1",
+                            "+@place": "1",
+                            "+@resultid": "7837"
+                          },
+                          {
+                            "+@order": "2",
+                            "+@place": "2",
+                            "+@resultid": "7779"
+                          },
+                          {
+                            "+@order": "3",
+                            "+@place": "3",
+                            "+@resultid": "7489"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "+@agegroupid": "7",
+                      "+@agemax": "319",
+                      "+@agemin": "280",
+                      "+@name": "280+ Yrs Age Group",
+                      "+@calculate": "TOTAL",
+                      "+@pointstype": "N",
+                      "RANKINGS": {
+                        "RANKING": {
+                          "+@order": "1",
+                          "+@place": "-1",
+                          "+@resultid": "7426"
+                        }
+                      }
+                    },
+                    {
+                      "+@agegroupid": "8",
+                      "+@agemax": "359",
+                      "+@agemin": "320",
+                      "+@name": "320+ Yrs Age Group",
+                      "+@calculate": "TOTAL",
+                      "+@pointstype": "N",
+                      "RANKINGS": {
+                        "RANKING": {
+                          "+@order": "1",
+                          "+@place": "1",
+                          "+@resultid": "7392"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "CLUBS": {
+          "CLUB": [
+            {
+              "+@code": "BICA",
+              "+@name": "Bircotes SC",
+              "+@name.en": "Bircotes SC",
+              "+@region": "NTMA",
+              "+@type": "CLUB",
+              "+@shortname": "Bircotes SC",
+              "+@shortname.en": "Bircotes SC",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "120",
+                  "+@agetotalmax": "159",
+                  "+@name": "Bircotes SC",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8012",
+                      "+@lane": "5",
+                      "+@entrytime": "00:10:00.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "966",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "968",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "967",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1812",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7619",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:08:25.72",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "966",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "968",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "967",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1812",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:27.38",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:00:57.80",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:29.40",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:01.25",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:29.10",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:02.10",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:03:36.75",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:11.49",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:04:40.14",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:05:12.75",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:05:45.93",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:06:18.53",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:06:47.00",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:07:18.95",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:07:51.44",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:08:25.72",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "966",
+                    "+@lastname": "Gordon",
+                    "+@firstname": "Paul",
+                    "+@nameprefix": "Paul",
+                    "+@gender": "M",
+                    "+@birthdate": "1996-01-01",
+                    "+@age": "30",
+                    "+@license": "797057",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "968",
+                    "+@lastname": "Elcock",
+                    "+@firstname": "Christopher",
+                    "+@nameprefix": "Christopher",
+                    "+@gender": "M",
+                    "+@birthdate": "1996-01-01",
+                    "+@age": "30",
+                    "+@license": "780413",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "967",
+                    "+@lastname": "Dixon",
+                    "+@firstname": "Ben",
+                    "+@nameprefix": "Ben",
+                    "+@gender": "M",
+                    "+@birthdate": "1991-01-01",
+                    "+@age": "35",
+                    "+@license": "26706",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1812",
+                    "+@lastname": "Searles",
+                    "+@firstname": "James",
+                    "+@nameprefix": "James",
+                    "+@gender": "M",
+                    "+@birthdate": "1991-01-01",
+                    "+@age": "35",
+                    "+@license": "24654",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "BOLE",
+              "+@name": "Boldon C.A. Swim Club",
+              "+@name.en": "Boldon C.A. Swim Club",
+              "+@region": "NDRE",
+              "+@type": "CLUB",
+              "+@shortname": "Boldon",
+              "+@shortname.en": "Boldon",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "72",
+                  "+@agetotalmax": "99",
+                  "+@name": "Boldon",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8012",
+                      "+@lane": "0",
+                      "+@entrytime": "00:09:00.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "2061",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1713",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1010",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1012",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7690",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:08:56.57",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "2061",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1713",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1010",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1012",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:31.44",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:07.11",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:44.78",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:21.57",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:49.67",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:21.58",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:03:55.28",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:30.12",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:05:00.39",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:05:35.18",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:06:09.70",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:06:42.81",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:07:11.33",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:07:44.41",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:08:19.86",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:08:56.57",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "2061",
+                    "+@lastname": "Mills",
+                    "+@firstname": "Aaron",
+                    "+@nameprefix": "Aaron",
+                    "+@gender": "M",
+                    "+@birthdate": "2007-01-01",
+                    "+@age": "19",
+                    "+@license": "1103543",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1713",
+                    "+@lastname": "Simpson",
+                    "+@firstname": "Anthony",
+                    "+@nameprefix": "Anthony",
+                    "+@gender": "M",
+                    "+@birthdate": "1993-01-01",
+                    "+@age": "33",
+                    "+@license": "61819",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1010",
+                    "+@lastname": "Simpson",
+                    "+@firstname": "Nicholas",
+                    "+@nameprefix": "Nicholas",
+                    "+@gender": "M",
+                    "+@birthdate": "1996-01-01",
+                    "+@age": "30",
+                    "+@license": "142058",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1012",
+                    "+@lastname": "Herring",
+                    "+@firstname": "Benjamin",
+                    "+@nameprefix": "Benjamin",
+                    "+@gender": "M",
+                    "+@birthdate": "1992-01-01",
+                    "+@age": "34",
+                    "+@license": "66806",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "BOKE",
+              "+@name": "Borough of Kirklees SC",
+              "+@name.en": "Borough of Kirklees SC",
+              "+@region": "YRKE",
+              "+@type": "CLUB",
+              "+@shortname": "Bo Kirklees",
+              "+@shortname.en": "Bo Kirklees",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "200",
+                  "+@agetotalmax": "239",
+                  "+@name": "Bo Kirklees",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8011",
+                      "+@lane": "3",
+                      "+@entrytime": "00:11:00.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1738",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "2049",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "2052",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "2266",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7666",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:09:49.92",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1738",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "2049",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "2052",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "2266",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:30.12",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:03.58",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:38.67",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:13.65",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:48.47",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:28.03",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:10.25",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:52.03",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:05:24.10",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:06:00.69",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:06:37.69",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:07:13.23",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:07:49.99",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:08:29.41",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:09:10.40",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:09:49.92",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1738",
+                    "+@lastname": "Worthy",
+                    "+@firstname": "Stewart",
+                    "+@nameprefix": "Stewart",
+                    "+@gender": "M",
+                    "+@birthdate": "1978-01-01",
+                    "+@age": "48",
+                    "+@license": "242485",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2049",
+                    "+@lastname": "Cornish",
+                    "+@firstname": "Paul",
+                    "+@nameprefix": "Paul",
+                    "+@gender": "M",
+                    "+@birthdate": "1978-01-01",
+                    "+@age": "48",
+                    "+@license": "324523",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2052",
+                    "+@lastname": "Temple",
+                    "+@firstname": "Martin",
+                    "+@nameprefix": "Martin",
+                    "+@gender": "M",
+                    "+@birthdate": "1977-01-01",
+                    "+@age": "49",
+                    "+@license": "758",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2266",
+                    "+@lastname": "Bottomley",
+                    "+@firstname": "Stephen",
+                    "+@nameprefix": "Stephen",
+                    "+@gender": "M",
+                    "+@birthdate": "1963-01-01",
+                    "+@age": "63",
+                    "+@license": "1179321",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "BRHW",
+              "+@name": "Bristol Henleaze SC",
+              "+@name.en": "Bristol Henleaze SC",
+              "+@region": "GLUW",
+              "+@type": "CLUB",
+              "+@shortname": "Bristol Hen",
+              "+@shortname.en": "Bristol Hen",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "120",
+                  "+@agetotalmax": "159",
+                  "+@name": "Bristol Hen",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8012",
+                      "+@lane": "6",
+                      "+@entrytime": "00:10:00.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1038",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1035",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1039",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "2067",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7718",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:08:26.95",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1038",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1035",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1039",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "2067",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:26.97",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:00:57.14",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:27.42",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:01:57.68",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:25.80",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:02:57.92",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:03:31.52",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:05.57",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:04:35.32",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:05:09.98",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:05:45.66",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:06:18.13",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:06:47.02",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:07:20.49",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:07:54.24",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:08:26.95",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1038",
+                    "+@lastname": "Wood",
+                    "+@firstname": "John",
+                    "+@nameprefix": "John",
+                    "+@gender": "M",
+                    "+@birthdate": "1986-01-01",
+                    "+@age": "40",
+                    "+@license": "4388",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1035",
+                    "+@lastname": "Burrell",
+                    "+@firstname": "Alex",
+                    "+@nameprefix": "Alex",
+                    "+@gender": "M",
+                    "+@birthdate": "1994-01-01",
+                    "+@age": "32",
+                    "+@license": "167875",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1039",
+                    "+@lastname": "Elliott",
+                    "+@firstname": "Samuel",
+                    "+@nameprefix": "Samuel",
+                    "+@gender": "M",
+                    "+@birthdate": "1999-01-01",
+                    "+@age": "27",
+                    "+@license": "432349",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2067",
+                    "+@lastname": "Trickett",
+                    "+@firstname": "David",
+                    "+@nameprefix": "David",
+                    "+@gender": "M",
+                    "+@birthdate": "1995-01-01",
+                    "+@age": "31",
+                    "+@license": "166923",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "COSE",
+              "+@name": "City of Sheffield Swim Squad Ltd",
+              "+@name.en": "City of Sheffield Swim Squad Ltd",
+              "+@region": "YRKE",
+              "+@type": "CLUB",
+              "+@shortname": "Co Sheffield",
+              "+@shortname.en": "Co Sheffield",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "240",
+                  "+@agetotalmax": "279",
+                  "+@name": "Co Sheffield",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8011",
+                      "+@lane": "6",
+                      "+@entrytime": "00:11:30.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1469",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1478",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "2359",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1576",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7779",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:09:31.17",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1469",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1478",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "2359",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1576",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:30.48",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:03.78",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:37.61",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:10.69",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:43.50",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:20.00",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:03:57.89",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:35.52",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:05:10.14",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:05:49.68",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:06:32.68",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:07:15.29",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:07:45.10",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:08:19.49",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:08:55.02",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:09:31.17",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1469",
+                    "+@lastname": "McHale",
+                    "+@firstname": "Jamie",
+                    "+@nameprefix": "Jamie",
+                    "+@gender": "M",
+                    "+@birthdate": "1972-01-01",
+                    "+@age": "54",
+                    "+@license": "625477",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1478",
+                    "+@lastname": "Wycherley",
+                    "+@firstname": "Andrew",
+                    "+@nameprefix": "Andrew",
+                    "+@gender": "M",
+                    "+@birthdate": "1965-01-01",
+                    "+@age": "61",
+                    "+@license": "819687",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2359",
+                    "+@lastname": "Mayman",
+                    "+@firstname": "Brenton",
+                    "+@nameprefix": "Brenton",
+                    "+@gender": "M",
+                    "+@birthdate": "1960-01-01",
+                    "+@age": "66",
+                    "+@license": "980278",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1576",
+                    "+@lastname": "Moore",
+                    "+@firstname": "Andrew",
+                    "+@nameprefix": "Andrew",
+                    "+@gender": "M",
+                    "+@birthdate": "1966-01-01",
+                    "+@age": "60",
+                    "+@license": "273929",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "COSS",
+              "+@name": "City of Southampton SC",
+              "+@name.en": "City of Southampton SC",
+              "+@region": "HNTS",
+              "+@type": "CLUB",
+              "+@shortname": "Co South'ton",
+              "+@shortname.en": "Co South'ton",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "160",
+                  "+@agetotalmax": "199",
+                  "+@name": "Co South'ton",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8012",
+                      "+@lane": "9",
+                      "+@entrytime": "00:10:30.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "2188",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1482",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "2189",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1484",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7788",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:09:39.91",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "2188",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1482",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "2189",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1484",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:30.64",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:04.37",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:40.10",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:15.98",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:47.04",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:20.30",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:03:54.34",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:28.66",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:05:00.90",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:05:36.97",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:06:12.61",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:06:47.53",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:07:25.69",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:08:09.80",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:08:55.74",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:09:39.91",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "2188",
+                    "+@lastname": "Nash",
+                    "+@firstname": "Matthew",
+                    "+@nameprefix": "Matthew",
+                    "+@gender": "M",
+                    "+@birthdate": "1998-01-01",
+                    "+@age": "28",
+                    "+@license": "1606366",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1482",
+                    "+@lastname": "Halford",
+                    "+@firstname": "Carl",
+                    "+@nameprefix": "Carl",
+                    "+@gender": "M",
+                    "+@birthdate": "1993-01-01",
+                    "+@age": "33",
+                    "+@license": "55138",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2189",
+                    "+@lastname": "Mactavish",
+                    "+@firstname": "James",
+                    "+@nameprefix": "James",
+                    "+@gender": "M",
+                    "+@birthdate": "1982-01-01",
+                    "+@age": "44",
+                    "+@license": "132146",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1484",
+                    "+@lastname": "O'Brien",
+                    "+@firstname": "Timothy",
+                    "+@nameprefix": "Timothy",
+                    "+@gender": "M",
+                    "+@birthdate": "1953-01-01",
+                    "+@age": "73",
+                    "+@license": "1728073",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "DEXA",
+              "+@name": "Derby Excel Swimming Club",
+              "+@name.en": "Derby Excel Swimming Club",
+              "+@region": "DRBA",
+              "+@type": "CLUB",
+              "+@shortname": "Derby Excel",
+              "+@shortname.en": "Derby Excel",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "160",
+                  "+@agetotalmax": "199",
+                  "+@name": "Derby Excel",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8012",
+                      "+@lane": "8",
+                      "+@entrytime": "00:10:30.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1519",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1517",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "2215",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "2222",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7832",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:09:37.03",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1519",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1517",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "2215",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "2222",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:32.94",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:11.24",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:50.50",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:30.11",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:02.98",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:40.48",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:17.90",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:55.02",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:05:24.64",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:05:58.77",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:06:35.89",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:07:13.78",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:07:46.39",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:08:23.22",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:09:01.12",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:09:37.03",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1519",
+                    "+@lastname": "Bocharnikov",
+                    "+@firstname": "Yury",
+                    "+@nameprefix": "Yury",
+                    "+@gender": "M",
+                    "+@birthdate": "1981-01-01",
+                    "+@age": "45",
+                    "+@license": "1296959",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1517",
+                    "+@lastname": "Palfrey",
+                    "+@firstname": "Justin",
+                    "+@nameprefix": "Justin",
+                    "+@gender": "M",
+                    "+@birthdate": "1971-01-01",
+                    "+@age": "55",
+                    "+@license": "19001",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2215",
+                    "+@lastname": "Bestwick",
+                    "+@firstname": "Joshua",
+                    "+@nameprefix": "Joshua",
+                    "+@gender": "M",
+                    "+@birthdate": "2000-01-01",
+                    "+@age": "26",
+                    "+@license": "556912",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2222",
+                    "+@lastname": "Blakemore",
+                    "+@firstname": "Mitchell",
+                    "+@nameprefix": "Mitchell",
+                    "+@gender": "M",
+                    "+@birthdate": "1987-01-01",
+                    "+@age": "39",
+                    "+@license": "6536",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "DAGE",
+              "+@name": "Derwentside & Gateshead Swim Tea",
+              "+@name.en": "Derwentside & Gateshead Swim Tea",
+              "+@region": "NDRE",
+              "+@type": "CLUB",
+              "+@shortname": "Derwent&Gate",
+              "+@shortname.en": "Derwent&Gate",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "240",
+                  "+@agetotalmax": "279",
+                  "+@name": "Derwent&Gate",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8011",
+                      "+@lane": "5",
+                      "+@entrytime": "00:11:30.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "2445",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1527",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1524",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1580",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7837",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:09:18.83",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "2445",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1527",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1524",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1580",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:30.68",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:05.93",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:41.80",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:17.05",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:50.70",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:28.38",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:07.18",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:44.18",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:05:18.04",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:05:55.42",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:06:33.68",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:07:11.27",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:07:40.82",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:08:12.93",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:08:46.11",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:09:18.83",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "2445",
+                    "+@lastname": "Chaney",
+                    "+@firstname": "David",
+                    "+@nameprefix": "David",
+                    "+@gender": "M",
+                    "+@birthdate": "1968-01-01",
+                    "+@age": "58",
+                    "+@license": "605",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1527",
+                    "+@lastname": "Bowman",
+                    "+@firstname": "Paul",
+                    "+@nameprefix": "Paul",
+                    "+@gender": "M",
+                    "+@birthdate": "1961-01-01",
+                    "+@age": "65",
+                    "+@license": "510984",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1524",
+                    "+@lastname": "Grant",
+                    "+@firstname": "Matthew",
+                    "+@nameprefix": "Matthew",
+                    "+@gender": "M",
+                    "+@birthdate": "1964-01-01",
+                    "+@age": "62",
+                    "+@license": "54189",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1580",
+                    "+@lastname": "Ovington",
+                    "+@firstname": "Colin",
+                    "+@nameprefix": "Colin",
+                    "+@gender": "M",
+                    "+@birthdate": "1969-01-01",
+                    "+@age": "57",
+                    "+@license": "2646",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "ELEE",
+              "+@name": "East Leeds SC",
+              "+@name.en": "East Leeds SC",
+              "+@region": "YRKE",
+              "+@type": "CLUB",
+              "+@shortname": "East Leeds",
+              "+@shortname.en": "East Leeds",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "100",
+                  "+@agetotalmax": "119",
+                  "+@name": "East Leeds",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8012",
+                      "+@lane": "3",
+                      "+@entrytime": "00:09:30.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1562",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1552",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1546",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1757",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7847",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:07:46.44",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1562",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1552",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1546",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1757",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:26.35",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:00:55.54",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:26.16",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:01:57.50",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:24.16",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:02:53.26",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:03:23.13",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:03:53.63",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:04:19.68",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:04:48.86",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:05:19.22",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:05:50.07",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:06:16.06",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:06:45.33",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:07:15.41",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:07:46.44",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1562",
+                    "+@lastname": "Lawman",
+                    "+@firstname": "Samuel",
+                    "+@nameprefix": "Samuel",
+                    "+@gender": "M",
+                    "+@birthdate": "1995-01-01",
+                    "+@age": "31",
+                    "+@license": "449058",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1552",
+                    "+@lastname": "Naylor",
+                    "+@firstname": "Samuel",
+                    "+@nameprefix": "Samuel",
+                    "+@gender": "M",
+                    "+@birthdate": "2000-01-01",
+                    "+@age": "26",
+                    "+@license": "974797",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1546",
+                    "+@lastname": "Russell",
+                    "+@firstname": "George",
+                    "+@nameprefix": "George",
+                    "+@gender": "M",
+                    "+@birthdate": "1997-01-01",
+                    "+@age": "29",
+                    "+@license": "359026",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1757",
+                    "+@lastname": "Tyler",
+                    "+@firstname": "Lucas",
+                    "+@nameprefix": "Lucas",
+                    "+@gender": "M",
+                    "+@birthdate": "1999-01-01",
+                    "+@age": "27",
+                    "+@license": "1830208",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "EMAW",
+              "+@name": "Exe Masters Swimming Club",
+              "+@name.en": "Exe Masters Swimming Club",
+              "+@region": "DVNW",
+              "+@type": "CLUB",
+              "+@shortname": "Exe Masters",
+              "+@shortname.en": "Exe Masters",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "72",
+                  "+@agetotalmax": "99",
+                  "+@name": "Exe Masters",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8012",
+                      "+@lane": "1",
+                      "+@entrytime": "00:09:00.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1061",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1069",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1880",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1066",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7869",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:08:05.82",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1061",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1069",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1880",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1066",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:27.33",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:00:58.26",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:29.53",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:00.56",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:26.79",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:02:56.69",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:03:27.09",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:03:57.36",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:04:26.55",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:04:59.03",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:05:32.99",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:06:05.57",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:06:33.69",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:07:04.43",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:07:35.49",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:08:05.82",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1061",
+                    "+@lastname": "Weedon",
+                    "+@firstname": "Oliver",
+                    "+@nameprefix": "Oliver",
+                    "+@gender": "M",
+                    "+@birthdate": "1995-01-01",
+                    "+@age": "31",
+                    "+@license": "77465",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1069",
+                    "+@lastname": "Louw",
+                    "+@firstname": "Daneel",
+                    "+@nameprefix": "Daneel",
+                    "+@gender": "M",
+                    "+@birthdate": "2003-01-01",
+                    "+@age": "23",
+                    "+@license": "1179804",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1880",
+                    "+@lastname": "Moss",
+                    "+@firstname": "Jack",
+                    "+@nameprefix": "Jack",
+                    "+@gender": "M",
+                    "+@birthdate": "1995-01-01",
+                    "+@age": "31",
+                    "+@license": "253068",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1066",
+                    "+@lastname": "Manolisaid",
+                    "+@firstname": "Christos",
+                    "+@nameprefix": "Christos",
+                    "+@gender": "M",
+                    "+@birthdate": "2002-01-01",
+                    "+@age": "24",
+                    "+@license": "1673520",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "NUEL",
+              "+@name": "Newham & University of East Lond",
+              "+@name.en": "Newham & University of East Lond",
+              "+@region": "ESXQ",
+              "+@type": "CLUB",
+              "+@shortname": "Bo Newham",
+              "+@shortname.en": "Bo Newham",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "160",
+                  "+@agetotalmax": "199",
+                  "+@name": "Bo Newham",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8012",
+                      "+@lane": "7",
+                      "+@entrytime": "00:10:30.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "998",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "994",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1007",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1006",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7689",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:08:49.01",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "998",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "994",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1007",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1006",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:30.01",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:03.27",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:36.60",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:09.01",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:42.52",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:18.80",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:03:56.60",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:33.25",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:05:02.88",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:05:35.17",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:06:08.97",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:06:41.89",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:07:11.09",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:07:43.72",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:08:17.20",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:08:49.01",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "998",
+                    "+@lastname": "Dixon",
+                    "+@firstname": "Peter",
+                    "+@nameprefix": "Peter",
+                    "+@gender": "M",
+                    "+@birthdate": "1968-01-01",
+                    "+@age": "58",
+                    "+@license": "171222",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "994",
+                    "+@lastname": "Wallace",
+                    "+@firstname": "Ian",
+                    "+@nameprefix": "Ian",
+                    "+@gender": "M",
+                    "+@birthdate": "1970-01-01",
+                    "+@age": "56",
+                    "+@license": "1295721",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1007",
+                    "+@lastname": "Romero",
+                    "+@firstname": "Alejandro",
+                    "+@nameprefix": "Alejandro",
+                    "+@gender": "M",
+                    "+@birthdate": "1989-01-01",
+                    "+@age": "37",
+                    "+@license": "1827144",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1006",
+                    "+@lastname": "Shone",
+                    "+@firstname": "Matthew",
+                    "+@nameprefix": "Matthew",
+                    "+@gender": "M",
+                    "+@birthdate": "1993-01-01",
+                    "+@age": "33",
+                    "+@license": "1719512",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "INDY",
+              "+@name": "Nofio Cymru",
+              "+@name.en": "Nofio Cymru",
+              "+@region": "EWAY",
+              "+@type": "CLUB",
+              "+@shortname": "Nofio Cymru",
+              "+@shortname.en": "Nofio Cymru",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "200",
+                  "+@agetotalmax": "239",
+                  "+@name": "Nofio Cymru",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8011",
+                      "+@lane": "2",
+                      "+@entrytime": "00:11:00.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "736",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "2315",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "2254",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "2313",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7967",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:10:35.26",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "736",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "2315",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "2254",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "2313",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:37.22",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:20.23",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:02:04.85",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:49.55",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:03:25.08",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:04:05.23",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:48.43",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:05:31.78",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:06:06.28",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:06:45.91",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:07:29.02",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:08:12.59",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:08:45.65",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:09:22.81",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:10:00.32",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:10:35.26",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "736",
+                    "+@lastname": "Powell",
+                    "+@firstname": "Ian",
+                    "+@nameprefix": "Ian",
+                    "+@gender": "M",
+                    "+@birthdate": "1959-01-01",
+                    "+@age": "67",
+                    "+@license": "946332",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2315",
+                    "+@lastname": "Potter",
+                    "+@firstname": "Michael",
+                    "+@nameprefix": "Michael",
+                    "+@gender": "M",
+                    "+@birthdate": "1980-01-01",
+                    "+@age": "46",
+                    "+@license": "97012591",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2254",
+                    "+@lastname": "Drew",
+                    "+@firstname": "Richard",
+                    "+@nameprefix": "Richard",
+                    "+@gender": "M",
+                    "+@birthdate": "1966-01-01",
+                    "+@age": "60",
+                    "+@license": "97008141",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2313",
+                    "+@lastname": "Williams",
+                    "+@firstname": "Tom",
+                    "+@nameprefix": "Tom",
+                    "+@gender": "M",
+                    "+@birthdate": "1987-01-01",
+                    "+@age": "39",
+                    "+@license": "31038",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "OTTL",
+              "+@name": "Otter SC",
+              "+@name.en": "Otter SC",
+              "+@region": "MDXL",
+              "+@type": "CLUB",
+              "+@shortname": "Otter",
+              "+@shortname.en": "Otter",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": [
+                  {
+                    "+@agemin": "-1",
+                    "+@agemax": "-1",
+                    "+@agetotalmin": "100",
+                    "+@agetotalmax": "119",
+                    "+@name": "Otter",
+                    "+@gender": "M",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "801",
+                        "+@heatid": "8012",
+                        "+@lane": "2",
+                        "+@entrytime": "00:09:30.00",
+                        "+@entrycourse": "SCM",
+                        "RELAYPOSITIONS": {
+                          "RELAYPOSITION": [
+                            {
+                              "+@athleteid": "757",
+                              "+@number": "1"
+                            },
+                            {
+                              "+@athleteid": "2092",
+                              "+@number": "2"
+                            },
+                            {
+                              "+@athleteid": "778",
+                              "+@number": "3"
+                            },
+                            {
+                              "+@athleteid": "768",
+                              "+@number": "4"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "7373",
+                        "+@eventid": "801",
+                        "+@swimtime": "00:07:40.42",
+                        "+@reactiontime": "",
+                        "+@points": "0",
+                        "+@pointsmasters": "0",
+                        "+@pointsmc": "0",
+                        "RELAYPOSITIONS": {
+                          "RELAYPOSITION": [
+                            {
+                              "+@athleteid": "757",
+                              "+@number": "1"
+                            },
+                            {
+                              "+@athleteid": "2092",
+                              "+@number": "2"
+                            },
+                            {
+                              "+@athleteid": "778",
+                              "+@number": "3"
+                            },
+                            {
+                              "+@athleteid": "768",
+                              "+@number": "4"
+                            }
+                          ]
+                        },
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:26.16",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:00:55.39",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:01:25.28",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:01:54.52",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:02:20.18",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:02:49.54",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:03:20.16",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:03:51.02",
+                              "+@distance": "400"
+                            },
+                            {
+                              "+@swimtime": "00:04:17.27",
+                              "+@distance": "450"
+                            },
+                            {
+                              "+@swimtime": "00:04:46.80",
+                              "+@distance": "500"
+                            },
+                            {
+                              "+@swimtime": "00:05:16.90",
+                              "+@distance": "550"
+                            },
+                            {
+                              "+@swimtime": "00:05:47.32",
+                              "+@distance": "600"
+                            },
+                            {
+                              "+@swimtime": "00:06:12.22",
+                              "+@distance": "650"
+                            },
+                            {
+                              "+@swimtime": "00:06:40.42",
+                              "+@distance": "700"
+                            },
+                            {
+                              "+@swimtime": "00:07:10.10",
+                              "+@distance": "750"
+                            },
+                            {
+                              "+@swimtime": "00:07:40.42",
+                              "+@distance": "800"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "+@agemin": "-1",
+                    "+@agemax": "-1",
+                    "+@agetotalmin": "320",
+                    "+@agetotalmax": "359",
+                    "+@name": "Otter",
+                    "+@gender": "M",
+                    "ENTRIES": {
+                      "ENTRY": {
+                        "+@eventid": "801",
+                        "+@heatid": "8011",
+                        "+@lane": "8",
+                        "+@entrytime": "00:12:30.00",
+                        "+@entrycourse": "SCM",
+                        "RELAYPOSITIONS": {
+                          "RELAYPOSITION": [
+                            {
+                              "+@athleteid": "780",
+                              "+@number": "1"
+                            },
+                            {
+                              "+@athleteid": "770",
+                              "+@number": "2"
+                            },
+                            {
+                              "+@athleteid": "782",
+                              "+@number": "3"
+                            },
+                            {
+                              "+@athleteid": "781",
+                              "+@number": "4"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "RESULTS": {
+                      "RESULT": {
+                        "+@resultid": "7392",
+                        "+@eventid": "801",
+                        "+@swimtime": "00:13:22.46",
+                        "+@reactiontime": "",
+                        "+@points": "0",
+                        "+@pointsmasters": "0",
+                        "+@pointsmc": "0",
+                        "RELAYPOSITIONS": {
+                          "RELAYPOSITION": [
+                            {
+                              "+@athleteid": "780",
+                              "+@number": "1"
+                            },
+                            {
+                              "+@athleteid": "770",
+                              "+@number": "2"
+                            },
+                            {
+                              "+@athleteid": "782",
+                              "+@number": "3"
+                            },
+                            {
+                              "+@athleteid": "781",
+                              "+@number": "4"
+                            }
+                          ]
+                        },
+                        "SPLITS": {
+                          "SPLIT": [
+                            {
+                              "+@swimtime": "00:00:52.91",
+                              "+@distance": "50"
+                            },
+                            {
+                              "+@swimtime": "00:01:52.41",
+                              "+@distance": "100"
+                            },
+                            {
+                              "+@swimtime": "00:02:55.57",
+                              "+@distance": "150"
+                            },
+                            {
+                              "+@swimtime": "00:03:56.13",
+                              "+@distance": "200"
+                            },
+                            {
+                              "+@swimtime": "00:04:40.27",
+                              "+@distance": "250"
+                            },
+                            {
+                              "+@swimtime": "00:05:28.46",
+                              "+@distance": "300"
+                            },
+                            {
+                              "+@swimtime": "00:06:17.99",
+                              "+@distance": "350"
+                            },
+                            {
+                              "+@swimtime": "00:07:06.02",
+                              "+@distance": "400"
+                            },
+                            {
+                              "+@swimtime": "00:07:53.16",
+                              "+@distance": "450"
+                            },
+                            {
+                              "+@swimtime": "00:08:46.14",
+                              "+@distance": "500"
+                            },
+                            {
+                              "+@swimtime": "00:09:43.30",
+                              "+@distance": "550"
+                            },
+                            {
+                              "+@swimtime": "00:10:38.30",
+                              "+@distance": "600"
+                            },
+                            {
+                              "+@swimtime": "00:11:13.94",
+                              "+@distance": "650"
+                            },
+                            {
+                              "+@swimtime": "00:11:54.45",
+                              "+@distance": "700"
+                            },
+                            {
+                              "+@swimtime": "00:12:37.90",
+                              "+@distance": "750"
+                            },
+                            {
+                              "+@swimtime": "00:13:22.46",
+                              "+@distance": "800"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "780",
+                    "+@lastname": "Thomas",
+                    "+@firstname": "Robert",
+                    "+@nameprefix": "Robert",
+                    "+@gender": "M",
+                    "+@birthdate": "1943-01-01",
+                    "+@age": "83",
+                    "+@license": "770",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "770",
+                    "+@lastname": "Parr",
+                    "+@firstname": "Derek",
+                    "+@nameprefix": "Derek",
+                    "+@gender": "M",
+                    "+@birthdate": "1944-01-01",
+                    "+@age": "82",
+                    "+@license": "1767",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "782",
+                    "+@lastname": "Lloyd-Mostyn",
+                    "+@firstname": "Roger",
+                    "+@nameprefix": "Roger",
+                    "+@gender": "M",
+                    "+@birthdate": "1941-01-01",
+                    "+@age": "85",
+                    "+@license": "230",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "781",
+                    "+@lastname": "Braine",
+                    "+@firstname": "Stephen",
+                    "+@nameprefix": "Stephen",
+                    "+@gender": "M",
+                    "+@birthdate": "1954-01-01",
+                    "+@age": "72",
+                    "+@license": "7344",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "757",
+                    "+@lastname": "Rogers",
+                    "+@firstname": "Matthew",
+                    "+@nameprefix": "Matthew",
+                    "+@gender": "M",
+                    "+@birthdate": "2000-01-01",
+                    "+@age": "26",
+                    "+@license": "743615",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2092",
+                    "+@lastname": "Moores",
+                    "+@firstname": "David",
+                    "+@nameprefix": "David",
+                    "+@gender": "M",
+                    "+@birthdate": "1995-01-01",
+                    "+@age": "31",
+                    "+@license": "263125",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "778",
+                    "+@lastname": "Robinson",
+                    "+@firstname": "Harry",
+                    "+@nameprefix": "Harry",
+                    "+@gender": "M",
+                    "+@birthdate": "1998-01-01",
+                    "+@age": "28",
+                    "+@license": "502635",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "768",
+                    "+@lastname": "Mackay",
+                    "+@firstname": "Alexander",
+                    "+@nameprefix": "Alexander",
+                    "+@gender": "M",
+                    "+@birthdate": "1992-01-01",
+                    "+@age": "34",
+                    "+@license": "1697865",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "ROCT",
+              "+@name": "Rochford & District SC",
+              "+@name.en": "Rochford & District SC",
+              "+@region": "ESXQ",
+              "+@type": "CLUB",
+              "+@shortname": "Rochford",
+              "+@shortname.en": "Rochford",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "280",
+                  "+@agetotalmax": "319",
+                  "+@name": "Rochford",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8011",
+                      "+@lane": "7",
+                      "+@entrytime": "00:12:00.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "2119",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "842",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1648",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "2262",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7426",
+                      "+@eventid": "801",
+                      "+@swimtime": "NT",
+                      "+@reactiontime": "",
+                      "+@status": "DNS",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "2119",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "842",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1648",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "2262",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "2119",
+                    "+@lastname": "Gerrard",
+                    "+@firstname": "Walter",
+                    "+@nameprefix": "Walter",
+                    "+@gender": "M",
+                    "+@birthdate": "1952-01-01",
+                    "+@age": "74",
+                    "+@license": "2071",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "842",
+                    "+@lastname": "Rae",
+                    "+@firstname": "Peter",
+                    "+@nameprefix": "Peter",
+                    "+@gender": "M",
+                    "+@birthdate": "1953-01-01",
+                    "+@age": "73",
+                    "+@license": "3369",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1648",
+                    "+@lastname": "Harper",
+                    "+@firstname": "Philip",
+                    "+@nameprefix": "Philip",
+                    "+@gender": "M",
+                    "+@birthdate": "1945-01-01",
+                    "+@age": "81",
+                    "+@license": "167600",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "2262",
+                    "+@lastname": "North",
+                    "+@firstname": "Lee",
+                    "+@nameprefix": "Lee",
+                    "+@gender": "M",
+                    "+@birthdate": "1974-01-01",
+                    "+@age": "52",
+                    "+@license": "859099",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "TANT",
+              "+@name": "Team Anglia Masters Swimming Clu",
+              "+@name.en": "Team Anglia Masters Swimming Clu",
+              "+@region": "SFKT",
+              "+@type": "CLUB",
+              "+@shortname": "Team Anglia",
+              "+@shortname.en": "Team Anglia",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "200",
+                  "+@agetotalmax": "239",
+                  "+@name": "Team Anglia",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8011",
+                      "+@lane": "1",
+                      "+@entrytime": "00:11:00.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1263",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1270",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1266",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1271",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7467",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:09:27.11",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1263",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1270",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1266",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1271",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:29.12",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:02.33",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:36.79",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:11.39",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:45.59",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:24.75",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:06.77",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:50.23",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:05:22.42",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:05:58.89",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:06:35.84",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:07:11.88",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:07:41.71",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:08:14.93",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:08:50.37",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:09:27.11",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1263",
+                    "+@lastname": "Buck",
+                    "+@firstname": "Ashley",
+                    "+@nameprefix": "Ashley",
+                    "+@gender": "M",
+                    "+@birthdate": "1980-01-01",
+                    "+@age": "46",
+                    "+@license": "1959",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1270",
+                    "+@lastname": "Fresher",
+                    "+@firstname": "Martyn",
+                    "+@nameprefix": "Martyn",
+                    "+@gender": "M",
+                    "+@birthdate": "1962-01-01",
+                    "+@age": "64",
+                    "+@license": "37998",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1266",
+                    "+@lastname": "Davis",
+                    "+@firstname": "Robert",
+                    "+@nameprefix": "Robert",
+                    "+@gender": "M",
+                    "+@birthdate": "1970-01-01",
+                    "+@age": "56",
+                    "+@license": "303592",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1271",
+                    "+@lastname": "Brystow",
+                    "+@firstname": "Peter",
+                    "+@nameprefix": "Peter",
+                    "+@gender": "M",
+                    "+@birthdate": "1990-01-01",
+                    "+@age": "36",
+                    "+@license": "18849",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "TEDL",
+              "+@name": "Teddington SC",
+              "+@name.en": "Teddington SC",
+              "+@region": "MDXL",
+              "+@type": "CLUB",
+              "+@shortname": "Teddington",
+              "+@shortname.en": "Teddington",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "240",
+                  "+@agetotalmax": "279",
+                  "+@name": "Teddington",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8011",
+                      "+@lane": "4",
+                      "+@entrytime": "00:11:30.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1287",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1283",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1733",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1282",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7489",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:09:54.59",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1287",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1283",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1733",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1282",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:30.61",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:01:05.05",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:40.97",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:02:16.54",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:49.31",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:03:25.18",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:04:02.04",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:04:37.16",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:05:12.36",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:05:54.01",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:06:36.63",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:07:20.49",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:07:54.92",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:08:33.71",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:09:14.84",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:09:54.59",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1287",
+                    "+@lastname": "Deakin",
+                    "+@firstname": "Mark",
+                    "+@nameprefix": "Mark",
+                    "+@gender": "M",
+                    "+@birthdate": "1971-01-01",
+                    "+@age": "55",
+                    "+@license": "517236",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1283",
+                    "+@lastname": "Griffiths",
+                    "+@firstname": "Simon",
+                    "+@nameprefix": "Simon",
+                    "+@gender": "M",
+                    "+@birthdate": "1966-01-01",
+                    "+@age": "60",
+                    "+@license": "178698",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1733",
+                    "+@lastname": "Folsom",
+                    "+@firstname": "Steven",
+                    "+@nameprefix": "Steven",
+                    "+@gender": "M",
+                    "+@birthdate": "1953-01-01",
+                    "+@age": "73",
+                    "+@license": "796150",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1282",
+                    "+@lastname": "Hooper",
+                    "+@firstname": "Andrew",
+                    "+@nameprefix": "Andrew",
+                    "+@gender": "M",
+                    "+@birthdate": "1963-01-01",
+                    "+@age": "63",
+                    "+@license": "414675",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            },
+            {
+              "+@code": "WOKS",
+              "+@name": "Woking SC",
+              "+@name.en": "Woking SC",
+              "+@region": "SRYQ",
+              "+@type": "CLUB",
+              "+@shortname": "Woking",
+              "+@shortname.en": "Woking",
+              "+@nation": "GBR",
+              "RELAYS": {
+                "RELAY": {
+                  "+@agemin": "-1",
+                  "+@agemax": "-1",
+                  "+@agetotalmin": "100",
+                  "+@agetotalmax": "119",
+                  "+@name": "Woking",
+                  "+@gender": "M",
+                  "ENTRIES": {
+                    "ENTRY": {
+                      "+@eventid": "801",
+                      "+@heatid": "8012",
+                      "+@lane": "4",
+                      "+@entrytime": "00:09:30.00",
+                      "+@entrycourse": "SCM",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1607",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1384",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1380",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1393",
+                            "+@number": "4"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "RESULTS": {
+                    "RESULT": {
+                      "+@resultid": "7547",
+                      "+@eventid": "801",
+                      "+@swimtime": "00:07:39.02",
+                      "+@reactiontime": "",
+                      "+@points": "0",
+                      "+@pointsmasters": "0",
+                      "+@pointsmc": "0",
+                      "RELAYPOSITIONS": {
+                        "RELAYPOSITION": [
+                          {
+                            "+@athleteid": "1607",
+                            "+@number": "1"
+                          },
+                          {
+                            "+@athleteid": "1384",
+                            "+@number": "2"
+                          },
+                          {
+                            "+@athleteid": "1380",
+                            "+@number": "3"
+                          },
+                          {
+                            "+@athleteid": "1393",
+                            "+@number": "4"
+                          }
+                        ]
+                      },
+                      "SPLITS": {
+                        "SPLIT": [
+                          {
+                            "+@swimtime": "00:00:26.24",
+                            "+@distance": "50"
+                          },
+                          {
+                            "+@swimtime": "00:00:55.34",
+                            "+@distance": "100"
+                          },
+                          {
+                            "+@swimtime": "00:01:26.50",
+                            "+@distance": "150"
+                          },
+                          {
+                            "+@swimtime": "00:01:57.89",
+                            "+@distance": "200"
+                          },
+                          {
+                            "+@swimtime": "00:02:24.07",
+                            "+@distance": "250"
+                          },
+                          {
+                            "+@swimtime": "00:02:54.23",
+                            "+@distance": "300"
+                          },
+                          {
+                            "+@swimtime": "00:03:24.57",
+                            "+@distance": "350"
+                          },
+                          {
+                            "+@swimtime": "00:03:54.27",
+                            "+@distance": "400"
+                          },
+                          {
+                            "+@swimtime": "00:04:19.52",
+                            "+@distance": "450"
+                          },
+                          {
+                            "+@swimtime": "00:04:47.61",
+                            "+@distance": "500"
+                          },
+                          {
+                            "+@swimtime": "00:05:17.09",
+                            "+@distance": "550"
+                          },
+                          {
+                            "+@swimtime": "00:05:47.55",
+                            "+@distance": "600"
+                          },
+                          {
+                            "+@swimtime": "00:06:12.45",
+                            "+@distance": "650"
+                          },
+                          {
+                            "+@swimtime": "00:06:40.46",
+                            "+@distance": "700"
+                          },
+                          {
+                            "+@swimtime": "00:07:09.77",
+                            "+@distance": "750"
+                          },
+                          {
+                            "+@swimtime": "00:07:39.02",
+                            "+@distance": "800"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "ATHLETES": {
+                "ATHLETE": [
+                  {
+                    "+@athleteid": "1607",
+                    "+@lastname": "Richardson",
+                    "+@firstname": "Jason",
+                    "+@nameprefix": "Jason",
+                    "+@gender": "M",
+                    "+@birthdate": "1995-01-01",
+                    "+@age": "31",
+                    "+@license": "243268",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1384",
+                    "+@lastname": "Cunningham",
+                    "+@firstname": "Jamie",
+                    "+@nameprefix": "Jamie",
+                    "+@gender": "M",
+                    "+@birthdate": "1997-01-01",
+                    "+@age": "29",
+                    "+@license": "257912",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1380",
+                    "+@lastname": "Tuddenham",
+                    "+@firstname": "Mark",
+                    "+@nameprefix": "Mark",
+                    "+@gender": "M",
+                    "+@birthdate": "1997-01-01",
+                    "+@age": "29",
+                    "+@license": "249711",
+                    "+@nation": "GBR"
+                  },
+                  {
+                    "+@athleteid": "1393",
+                    "+@lastname": "Goodlud",
+                    "+@firstname": "Henry",
+                    "+@nameprefix": "Henry",
+                    "+@gender": "M",
+                    "+@birthdate": "1997-01-01",
+                    "+@age": "29",
+                    "+@license": "207756",
+                    "+@nation": "GBR"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

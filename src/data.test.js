@@ -6,7 +6,7 @@ const raw = JSON.parse(readFileSync(new URL('../results/team_scores.json', impor
 test('every event retained and sessions use last event snapshot', () => {
   const data = prepareData(raw.events);
   assert.equal(data.checkpoints.length, raw.events.length);
-  assert.equal(data.sessions.length, 7);
+  assert.equal(data.sessions.length, 8);
   for(const session of data.sessions) {
     const last = data.checkpoints.filter(p => p.session === session.session).at(-1);
     assert.deepEqual(session.scores, last.scores);

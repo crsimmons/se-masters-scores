@@ -1,0 +1,462 @@
+{
+  "status": "complete",
+  "meet": {
+    "name": "Swim England Masters 2026",
+    "city": "Sheffield",
+    "date": "2026-10-25",
+    "course": "SCM"
+  },
+  "event": {
+    "id": 802,
+    "number": 802,
+    "name": "Female 4x200m Freestyle Team",
+    "distance_m": 200,
+    "stroke": "FREE"
+  },
+  "age_groups": [
+    {
+      "name": "072+ Yrs Age Group",
+      "age_min": 72,
+      "age_max": 99,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Co Cambridge",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Almudena Visser Velez",
+              "age": 24,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Charlotte Begg",
+              "age": 32,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Jessica Hancock",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Samantha Auker",
+              "age": 31,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "CAMT",
+            "name": "City of Cambridge SC"
+          },
+          "time": "00:09:08.95"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "Derby Excel",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Chloe Ridge",
+              "age": 19,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Rebecca Mills",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Libbie Poole",
+              "age": 19,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Matilda McGrath",
+              "age": 19,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "DEXA",
+            "name": "Derby Excel Swimming Club"
+          },
+          "time": "00:09:21.99"
+        },
+        {
+          "order": 3,
+          "place": 3,
+          "team_name": "Birmingham M",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Beatrice Munro",
+              "age": 23,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Erin Medcalf",
+              "age": 27,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Isabel Jones",
+              "age": 21,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Imogen Morris",
+              "age": 30,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "BIRM",
+            "name": "Birmingham Masters"
+          },
+          "time": "00:10:32.14"
+        }
+      ]
+    },
+    {
+      "name": "100+ Yrs Age Group",
+      "age_min": 100,
+      "age_max": 119,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Trafford Met",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Chloe Fox-Robertson",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Aimee Smith",
+              "age": 30,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Molly James",
+              "age": 30,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Louise Stephenson",
+              "age": 29,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "TMBN",
+            "name": "Trafford Metro Bor SC"
+          },
+          "time": "00:09:32.73"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "Otter",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Michanne Steenbergen",
+              "age": 34,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Ibby Szenes",
+              "age": 26,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Rowena Moores",
+              "age": 29,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Suzanne Lewis",
+              "age": 29,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:09:49.74"
+        }
+      ]
+    },
+    {
+      "name": "120+ Yrs Age Group",
+      "age_min": 120,
+      "age_max": 159,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "East Leeds",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Sophie Barker",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Anna Cheesbrough",
+              "age": 33,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Sally Evers",
+              "age": 51,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Ella Windle",
+              "age": 28,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "ELEE",
+            "name": "East Leeds SC"
+          },
+          "time": "00:09:28.18"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "Otter",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Sophie Elphick",
+              "age": 32,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Lei Ping",
+              "age": 34,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Janet Chan",
+              "age": 31,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Alice Dinsdale-Young",
+              "age": 38,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "OTTL",
+            "name": "Otter SC"
+          },
+          "time": "00:09:54.76"
+        }
+      ]
+    },
+    {
+      "name": "160+ Yrs Age Group",
+      "age_min": 160,
+      "age_max": 199,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Derby Excel",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Fran Allmark-Palmer",
+              "age": 38,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Eleanor Grimes",
+              "age": 40,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Catriona Read",
+              "age": 56,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Elizabeth Bishop",
+              "age": 32,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "DEXA",
+            "name": "Derby Excel Swimming Club"
+          },
+          "time": "00:10:33.93"
+        },
+        {
+          "order": 2,
+          "place": 2,
+          "team_name": "Exe Masters",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Judith McGregor-Harper",
+              "age": 56,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Courtney West",
+              "age": 25,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Marta Acosta Acosta",
+              "age": 28,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Philippa O'Grady",
+              "age": 57,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "EMAW",
+            "name": "Exe Masters Swimming Club"
+          },
+          "time": "00:10:37.93"
+        }
+      ]
+    },
+    {
+      "name": "200+ Yrs Age Group",
+      "age_min": 200,
+      "age_max": 239,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Bo Kirklees",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Caroline Winkley",
+              "age": 51,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Kirsten Durrans",
+              "age": 59,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Caroline Marsh",
+              "age": 47,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Sarah Coatsworth",
+              "age": 53,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "BOKE",
+            "name": "Borough of Kirklees SC"
+          },
+          "time": "00:11:48.93"
+        }
+      ]
+    },
+    {
+      "name": "240+ Yrs Age Group",
+      "age_min": 240,
+      "age_max": 279,
+      "gender": null,
+      "results": [
+        {
+          "order": 1,
+          "place": 1,
+          "team_name": "Wycombe Dist",
+          "swimmers": [
+            {
+              "leg": 1,
+              "name": "Philippa Williams",
+              "age": 64,
+              "gender": "F"
+            },
+            {
+              "leg": 2,
+              "name": "Katharine King",
+              "age": 58,
+              "gender": "F"
+            },
+            {
+              "leg": 3,
+              "name": "Samantha Usher",
+              "age": 54,
+              "gender": "F"
+            },
+            {
+              "leg": 4,
+              "name": "Jacqueline Wells",
+              "age": 66,
+              "gender": "F"
+            }
+          ],
+          "club": {
+            "code": "WYCS",
+            "name": "Wycombe District SC"
+          },
+          "time": "00:11:17.38"
+        }
+      ]
+    }
+  ]
+}
